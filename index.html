@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GutRoots | Herbal Nootropics for Gut–Brain Health</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ─── PARTICLES CANVAS ─── -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="grain-overlay" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- ─── NAV ─── -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a class="logo" href="#hero">
+        <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="10" r="7" stroke="#2d7a4f" stroke-width="2.5"/><path d="M16 17 C8 20 8 28 16 30 C24 28 24 20 16 17Z" fill="#2d7a4f" opacity=".25"/><path d="M16 17v-4" stroke="#5b3fa6" stroke-width="2.5" stroke-dasharray="2 2"/></svg>
+        Gut<span>Roots</span>
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#products">Our Products</a></li>
+          <li><a href="#nootropics">Nootropics</a></li>
+          <li><a href="#nutrition">Nutrition</a></li>
+          <li><a href="#diet-packages">Diet Plans</a></li>
+          <li><a href="#ritual">How to Use</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#shop" class="nav-shop-btn">Shop Now</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 1 — HERO
+  ═══════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-content reveal">
+      <p class="hero-tag">ANCIENT WISDOM &middot; MODERN SCIENCE &middot; EVERYDAY KITCHEN</p>
+      <h1>What You Eat<br/><em>Decides How You Think.</em></h1>
+      <p class="hero-sub">
+        Your gut produces <strong>95% of your serotonin</strong>. Your microbiome shapes your mood, memory, and focus — every single day.
+        GutRoots brings you ancient herbal superfoods, backed by science and built for your daily kitchen.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary pulse-glow" href="#products">Explore Products</a>
+        <a class="btn btn-outline" href="#nootropics">The Science Behind It</a>
+      </div>
+      <div class="hero-trust">
+        <span>🌿 100 % Natural</span>
+        <span>🔬 Science-Backed</span>
+        <span>✅ No Fillers</span>
+        <span>🚚 Free Shipping ₹999+</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WAVE DIVIDER ─── -->
+  <div class="wave-divider"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 720,0 1080,40 C1260,60 1360,50 1440,40 L1440,80 L0,80Z" fill="var(--clr-green)"/></svg></div>
+
+  <!-- ─── STATS BANNER ─── -->
+  <section class="stats-banner">
+    <div class="stat"><span class="stat-num" data-target="500">0</span><span class="stat-plus">M+</span><p>Neurons in the enteric nervous system</p></div>
+    <div class="stat"><span class="stat-num" data-target="95">0</span><span class="stat-plus">%</span><p>Serotonin produced in the gut</p></div>
+    <div class="stat"><span class="stat-num" data-target="100">0</span><span class="stat-plus">T+</span><p>Microbial cells in your gut</p></div>
+    <div class="stat"><span class="stat-num" data-target="80">0</span><span class="stat-plus">%</span><p>Vagal fibers carry gut → brain signals</p></div>
+  </section>
+
+  <!-- ─── WAVE DIVIDER ─── -->
+  <div class="wave-divider wave-flip"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 720,0 1080,40 C1260,60 1360,50 1440,40 L1440,80 L0,80Z" fill="var(--clr-green)"/></svg></div>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 3 — FEATURED PRODUCTS
+  ═══════════════════════════════════════════════ -->
+  <section class="section" id="products">
+    <div class="container">
+      <p class="section-tag center">OUR PRODUCT RANGE</p>
+      <h2 class="center">Everyday Herbal Products for Healthy Living</h2>
+      <p class="center sub-intro">From breakfast batter to evening coffee — incorporate nootropic superfoods into every meal. Pure, natural, and linked to real health outcomes.</p>
+      <div class="product-grid">
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap moringa-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Turmeric_and_Moringa_oleifera_powder_CNE_02.jpg/600px-Turmeric_and_Moringa_oleifera_powder_CNE_02.jpg" alt="Moringa powder" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge">⭐ Best Seller</div>
+          <h3>Munagaku (Moringa) Powder</h3>
+          <p class="product-tagline">The Original Superfood for Gut &amp; Brain</p>
+          <p>Moringa — <em>Munagaku</em> in Telugu — delivers 90+ bioavailable nutrients, prebiotic fibre, and anti-inflammatory isothiocyanates. Add to smoothies, soups, or rice.</p>
+          <ul class="product-benefits"><li>✓ Feeds &amp; diversifies gut microbiome</li><li>✓ Boosts serotonin precursors (tryptophan)</li><li>✓ Reduces neuroinflammation</li><li>✓ Natural energy without caffeine crash</li></ul>
+          <div class="product-conditions">Helps with: <span>Depression</span> <span>Brain Fog</span> <span>Alzheimer's</span> <span>IBS</span></div>
+          <div class="product-price">₹599 <span class="price-weight">/ 200 g</span></div>
+          <a class="btn btn-primary" href="#shop">Add to Cart →</a>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap moringa-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Masala_dosa_01.jpg/600px-Masala_dosa_01.jpg" alt="Munagaku Dosa Batter" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge badge-green">🥘 Ready-to-Cook</div>
+          <h3>Munagaku Dosa Batter</h3>
+          <p class="product-tagline">Moringa-Fortified Breakfast, Ready in Minutes</p>
+          <p>Traditional dosa batter infused with Munagaku (Moringa) leaf powder. Just pour and cook — every crispy dosa packs prebiotic fibre, iron, and brain-supporting nutrients.</p>
+          <ul class="product-benefits"><li>✓ Easiest way to eat Moringa daily</li><li>✓ Fermented batter = natural probiotics</li><li>✓ Rich in iron, calcium &amp; folate</li><li>✓ Family-friendly — kids love it</li></ul>
+          <div class="product-conditions">Helps with: <span>Metabolic Syndrome</span> <span>Fatigue</span> <span>Gut Health</span></div>
+          <div class="product-price">₹349 <span class="price-weight">/ 1 kg</span></div>
+          <a class="btn btn-primary" href="#shop">Add to Cart →</a>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap curry-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/CURRY_LEAVES_PASTE_AND_POWDER.jpg/400px-CURRY_LEAVES_PASTE_AND_POWDER.jpg" alt="Curry leaf powder" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge badge-green">🌿 Traditional Remedy</div>
+          <h3>Curry Leaf Powder</h3>
+          <p class="product-tagline">Kari Patta — The Forgotten Brain Herb</p>
+          <p>Curry leaves are packed with mahanimbine — an alkaloid that inhibits acetylcholinesterase, protecting memory and cognitive function. Rich in iron, antioxidants, and anti-diabetic compounds.</p>
+          <ul class="product-benefits"><li>✓ Protects memory (acetylcholinesterase inhibitor)</li><li>✓ Controls blood sugar naturally</li><li>✓ Iron-rich for energy &amp; brain oxygen</li><li>✓ Sprinkle on any dish — rice, dal, curries</li></ul>
+          <div class="product-conditions">Helps with: <span>Alzheimer's</span> <span>Type 2 Diabetes</span> <span>Fatigue</span> <span>Parkinson's</span></div>
+          <div class="product-price">₹299 <span class="price-weight">/ 150 g</span></div>
+          <a class="btn btn-primary" href="#shop">Add to Cart →</a>
+        </div>
+
+        <div class="product-card featured-product reveal">
+          <div class="product-img-wrap lionsmane-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Hericium_erinaceus%2CLion%27s_Mane%2C_Hedgehog_Mushroom.jpg/600px-Hericium_erinaceus%2CLion%27s_Mane%2C_Hedgehog_Mushroom.jpg" alt="Lion's Mane mushroom" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge badge-purple">🧠 Cognitive Focus</div>
+          <h3>Lion's Mane Mushroom Powder</h3>
+          <p class="product-tagline">Regrow Your Gut–Brain Connection</p>
+          <p>Lion's Mane stimulates <strong>Nerve Growth Factor (NGF)</strong> — rebuilding neurons in both the enteric and central nervous systems. Clinical studies show improvements in memory, focus, and gut motility.</p>
+          <ul class="product-benefits"><li>✓ Stimulates NGF &amp; BDNF production</li><li>✓ Heals gut lining (reduces leaky gut)</li><li>✓ Reduces anxiety and brain fog</li><li>✓ Supports vagus nerve signalling</li></ul>
+          <div class="product-conditions">Helps with: <span>Alzheimer's</span> <span>Depression</span> <span>Brain Fog</span> <span>Parkinson's</span></div>
+          <div class="product-price">₹799 <span class="price-weight">/ 150 g</span></div>
+          <a class="btn btn-primary" href="#shop">Add to Cart →</a>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap mushroom-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Ganoderma_lucidum_01.jpg" alt="Medicinal mushroom blend" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge badge-purple">🍄 Immunity Blend</div>
+          <h3>Mushroom Powder (5-Blend)</h3>
+          <p class="product-tagline">Lion's Mane · Reishi · Chaga · Cordyceps · Turkey Tail</p>
+          <p>Five powerful medicinal mushrooms in one blend. Beta-glucans modulate gut immunity, polysaccharides feed beneficial bacteria, and adaptogens restore the stress–gut–brain axis.</p>
+          <ul class="product-benefits"><li>✓ 5 mushrooms = full-spectrum support</li><li>✓ Boosts gut-associated immune tissue</li><li>✓ Neuroprotective beta-glucans</li><li>✓ Add to soups, smoothies, or tea</li></ul>
+          <div class="product-conditions">Helps with: <span>Autoimmune</span> <span>Chronic Fatigue</span> <span>Brain Fog</span> <span>Anxiety</span></div>
+          <div class="product-price">₹899 <span class="price-weight">/ 150 g</span></div>
+          <a class="btn btn-primary" href="#shop">Add to Cart →</a>
+        </div>
+
+        <div class="product-card featured-product reveal">
+          <div class="product-img-wrap coffee-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Brewing_lion%E2%80%99s_mane_mushroom_tea.jpg/400px-Brewing_lion%E2%80%99s_mane_mushroom_tea.jpg" alt="Mushroom coffee" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge badge-amber">☕ Daily Ritual</div>
+          <h3>Mushroom Coffee</h3>
+          <p class="product-tagline">Coffee That Fuels Your Brain, Not Just Your Morning</p>
+          <p>Premium Arabica blended with Lion's Mane and Chaga mushroom extracts. Smooth, earthy flavour with half the caffeine jitters — full cognitive support. Just brew like regular coffee.</p>
+          <ul class="product-benefits"><li>✓ Lion's Mane for focus + Chaga for immunity</li><li>✓ Smooth energy without caffeine crash</li><li>✓ Gut-friendly — no acid spikes</li><li>✓ Replace your daily coffee 1:1</li></ul>
+          <div class="product-conditions">Helps with: <span>Brain Fog</span> <span>Anxiety</span> <span>ADHD</span> <span>Fatigue</span></div>
+          <div class="product-price">₹649 <span class="price-weight">/ 200 g (30 cups)</span></div>
+          <a class="btn btn-primary" href="#shop">Add to Cart →</a>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap ashwa-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ashwagandha_Powder_and_Root_on_Spoons_-_50191697031.jpg/600px-Ashwagandha_Powder_and_Root_on_Spoons_-_50191697031.jpg" alt="Ashwagandha root powder" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge badge-amber">🌙 Stress &amp; Sleep</div>
+          <h3>Ashwagandha Root Powder</h3>
+          <p class="product-tagline">Calm the Stress–Gut Spiral</p>
+          <p>Ashwagandha is an adaptogen that directly regulates the HPA axis — reducing cortisol, breaking the stress–gut–brain vicious cycle, and improving sleep quality and microbiome diversity.</p>
+          <ul class="product-benefits"><li>✓ Lowers cortisol by up to 27 % (RCT)</li><li>✓ Restores gut permeability under stress</li><li>✓ Improves sleep depth &amp; duration</li><li>✓ Boosts mood via GABA pathways</li></ul>
+          <div class="product-conditions">Helps with: <span>Depression</span> <span>Anxiety</span> <span>Insomnia</span> <span>IBS</span></div>
+          <div class="product-price">₹549 <span class="price-weight">/ 200 g</span></div>
+          <a class="btn btn-primary" href="#shop">Add to Cart →</a>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap reishi-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Ganoderma_lucidum_01.jpg" alt="Reishi mushroom" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge badge-teal">🛡️ Immunity</div>
+          <h3>Reishi Mushroom Powder</h3>
+          <p class="product-tagline">The Immunity–Gut–Mind Trifecta</p>
+          <p>Reishi's beta-glucans modulate gut immunity, balance the microbiome, and reduce systemic inflammation that drives brain fog, fatigue, and mood instability.</p>
+          <ul class="product-benefits"><li>✓ Boosts gut-associated immune tissue</li><li>✓ Prebiotic effect on Bifidobacterium</li><li>✓ Reduces neuroinflammation</li><li>✓ Calms overactive immune response</li></ul>
+          <div class="product-conditions">Helps with: <span>Autoimmune</span> <span>Chronic Fatigue</span> <span>Brain Fog</span> <span>Insomnia</span></div>
+          <div class="product-price">₹699 <span class="price-weight">/ 150 g</span></div>
+          <a class="btn btn-primary" href="#shop">Add to Cart →</a>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-img-wrap turmeric-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Kunyit_Bubuk.jpg/600px-Kunyit_Bubuk.jpg" alt="Turmeric powder" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge badge-amber">🔥 Anti-Inflammatory</div>
+          <h3>Turmeric + Black Pepper Blend</h3>
+          <p class="product-tagline">Seal the Gut. Silence the Inflammation.</p>
+          <p>Curcumin heals the gut lining, reduces intestinal permeability, and crosses the blood-brain barrier to reduce neuroinflammation. Piperine boosts absorption by 2000 %.</p>
+          <ul class="product-benefits"><li>✓ Heals leaky gut lining</li><li>✓ Inhibits NF-κB inflammatory pathway</li><li>✓ Crosses blood-brain barrier</li><li>✓ Supports healthy gut motility</li></ul>
+          <div class="product-conditions">Helps with: <span>Alzheimer's</span> <span>Parkinson's</span> <span>IBS / IBD</span> <span>Obesity</span></div>
+          <div class="product-price">₹449 <span class="price-weight">/ 200 g</span></div>
+          <a class="btn btn-primary" href="#shop">Add to Cart →</a>
+        </div>
+
+        <div class="product-card featured-product reveal">
+          <div class="product-img-wrap bundle-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Turmeric_and_Moringa_oleifera_powder_CNE_02.jpg/600px-Turmeric_and_Moringa_oleifera_powder_CNE_02.jpg" alt="GutRoots Daily Essentials Bundle" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="product-badge badge-purple">🌟 Bundle Deal — Save ₹600</div>
+          <h3>GutRoots Daily Essentials Bundle</h3>
+          <p class="product-tagline">Moringa + Lion's Mane + Curry Leaf + Mushroom Coffee · 30-day supply</p>
+          <p>Our complete daily pack — four flagship products working together. Moringa feeds the microbiome, Lion's Mane rebuilds neurons, Curry Leaf protects memory, Mushroom Coffee replaces your morning cup.</p>
+          <ul class="product-benefits"><li>✓ 30-day supply of 4 products</li><li>✓ Usage guide &amp; recipe booklet included</li><li>✓ Save ₹600 vs. buying separately</li><li>✓ Free express shipping</li></ul>
+          <div class="product-conditions">Helps with: <span>All conditions</span></div>
+          <div class="product-price">₹1,799 <span class="price-weight price-save">Save ₹600</span></div>
+          <a class="btn btn-primary" href="#shop">Get the Bundle →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<!-- SECTION: NOOTROPICS -->
+  <section class="section section-dark" id="nootropics">
+    <div class="container">
+      <p class="section-tag center" style="color:#60bb8a;">NOOTROPICS</p>
+      <h2 class="center" style="color:#fff;">Feed Your Brain. Heal Your Gut. Live Longer.</h2>
+      <p class="center sub-intro" style="color:rgba(255,255,255,.7);margin-bottom:3rem;">Science-backed nootropic nutrition — where your plate becomes your prescription. The future of brain health isn't in a hospital. It's in what you eat every day.</p>
+
+      <!-- The Problem -->
+      <div class="noo-problem-banner reveal">
+        <div class="noo-problem-icon">⚠️</div>
+        <div>
+          <h3>Your Brain Is Under Attack — And Your Diet Is the First Line of Defence</h3>
+          <p>Over <strong>55 million</strong> people worldwide live with dementia. Neurodegenerative diseases like Alzheimer's and Parkinson's claim <strong>9 million lives</strong> annually — and the numbers are rising. Current pharmaceutical treatments manage symptoms. They don't stop the clock. But emerging science tells a different story: <strong>what you eat can reshape your brain's future</strong>.</p>
+        </div>
+      </div>
+
+      <!-- What are Nootropic Foods -->
+      <h3 class="center" style="color:#fff;margin:3rem 0 1rem;font-size:clamp(1.3rem,2.5vw,1.8rem);">What Are Nootropic Foods?</h3>
+      <p class="center" style="color:rgba(255,255,255,.7);max-width:700px;margin:0 auto 2rem;">Not just "brain food" — something far more precise. Nootropic foods enhance brain health at the cellular level, working through five critical pathways:</p>
+
+      <div class="noo-threats-grid">
+        <div class="noo-threat-card reveal">
+          <div class="noo-threat-label">Threat</div>
+          <h4>Oxidative Stress (Excess ROS)</h4>
+          <div class="noo-fight-label">How Nootropics Fight Back</div>
+          <p>Polyphenols &amp; carotenoids neutralise free radicals</p>
+        </div>
+        <div class="noo-threat-card reveal">
+          <div class="noo-threat-label">Threat</div>
+          <h4>Neuroinflammation</h4>
+          <div class="noo-fight-label">How Nootropics Fight Back</div>
+          <p>Omega-3s &amp; SCFAs suppress inflammatory pathways</p>
+        </div>
+        <div class="noo-threat-card reveal">
+          <div class="noo-threat-label">Threat</div>
+          <h4>Misfolded Protein Build-up (Aβ, tau)</h4>
+          <div class="noo-fight-label">How Nootropics Fight Back</div>
+          <p>EGCG, curcumin &amp; beta-glucan delay plaque formation</p>
+        </div>
+        <div class="noo-threat-card reveal">
+          <div class="noo-threat-label">Threat</div>
+          <h4>Mitochondrial Dysfunction</h4>
+          <div class="noo-fight-label">How Nootropics Fight Back</div>
+          <p>Anthocyanins &amp; flavonoids restore energy production</p>
+        </div>
+        <div class="noo-threat-card reveal">
+          <div class="noo-threat-label">Threat</div>
+          <h4>Excitotoxicity (Glutamate Overload)</h4>
+          <div class="noo-fight-label">How Nootropics Fight Back</div>
+          <p>Amino acids &amp; polyphenols calm overactive receptors</p>
+        </div>
+      </div>
+
+      <!-- Gut-Brain Connection -->
+      <div class="noo-gutbrain-box reveal">
+        <h3>The Gut–Brain Connection: Heal the Gut. Protect the Brain.</h3>
+        <p>One of the most important discoveries in modern neuroscience: your gut and brain are in constant conversation. A disrupted gut microbiome (dysbiosis) releases toxins that cross the blood-brain barrier, triggering chronic inflammation, protein misfolding, and neuron death. <strong>Parkinson's disease is now believed to begin in the gut</strong> — long before any neurological symptom appears.</p>
+        <div class="noo-gutbrain-points">
+          <div>🌿 <strong>Dietary fibers</strong> (inulin, FOS, GOS, beta-glucan) restore healthy gut flora and feed beneficial bacteria</div>
+          <div>⚗️ <strong>SCFAs</strong> produced during fiber fermentation reduce neuroinflammation and protect the blood-brain barrier</div>
+          <div>🍇 <strong>Polyphenols</strong> act as prebiotics — suppressing harmful microbes while delivering anti-inflammatory metabolites to brain cells</div>
+          <div>🐟 <strong>Omega-3 PUFAs</strong> regulate gut microbiota composition and reduce endotoxin levels like IL-6 and LPS</div>
+        </div>
+      </div>
+
+      <!-- Ingredient Categories -->
+      <h3 class="center" style="color:#fff;margin:3rem 0 1.5rem;font-size:clamp(1.3rem,2.5vw,1.8rem);">Our Nootropic Ingredient Categories</h3>
+      <div class="noo-ingredient-grid">
+        <div class="noo-ingredient-card reveal">
+          <div class="noo-ing-emoji">🐟</div>
+          <h4>Omega-3 PUFAs</h4>
+          <p class="noo-ing-found">Found in: Oily fish, flaxseed, walnuts, algae, soybeans</p>
+          <p>DHA and EPA are structural pillars of every neuron. DHA accounts for up to 22 % of the brain's total phospholipids. Clinical studies show DHA supplementation reduces cognitive decline in aging adults and cuts depressive symptoms in Parkinson's patients by 50 %.</p>
+        </div>
+        <div class="noo-ingredient-card reveal">
+          <div class="noo-ing-emoji">🍇</div>
+          <h4>Polyphenols &amp; Anthocyanins</h4>
+          <p class="noo-ing-found">Found in: Blueberries, black rice, red grapes, green tea, turmeric, olive oil</p>
+          <p>The most extensively studied nootropic class. They cross the blood-brain barrier — scavenging free radicals, silencing NF-κB, and activating SIRT1. Curcumin reduces Parkinson's motor symptoms. EGCG delays amyloid-beta plaque formation. Resveratrol enhances hippocampal connectivity over 26 weeks.</p>
+        </div>
+        <div class="noo-ingredient-card reveal">
+          <div class="noo-ing-emoji">🌾</div>
+          <h4>Dietary Fibers &amp; Prebiotics</h4>
+          <p class="noo-ing-found">Found in: Oats, chicory, garlic, onions, leeks, lentils, mushrooms</p>
+          <p>Fiber is the gut microbiome's fuel. Beta-glucan, inulin, FOS, GOS, arabinoxylan, and resistant starch feed beneficial bacteria that produce SCFAs. A 10-day fiber intervention in Parkinson's patients showed measurable improvements in gut microbiota and reduced neurodegeneration markers (NfL).</p>
+        </div>
+        <div class="noo-ingredient-card reveal">
+          <div class="noo-ing-emoji">🥚</div>
+          <h4>Essential Amino Acids</h4>
+          <p class="noo-ing-found">Found in: Eggs, meat, fish, legumes, dairy, soy</p>
+          <p>Tryptophan is the precursor to serotonin; low levels accelerate excitotoxicity. Arginine supports nitric oxide production critical for memory. Methionine governs DNA methylation. A 12-week supplement of 7 essential amino acids improved cognition, social interaction, and wellbeing in adults 55+.</p>
+        </div>
+        <div class="noo-ingredient-card reveal">
+          <div class="noo-ing-emoji">🥕</div>
+          <h4>Carotenoids &amp; Terpenoids</h4>
+          <p class="noo-ing-found">Found in: Carrots, spinach, kale, tomatoes, citrus oils, herbs, spices</p>
+          <p>Lycopene activates the Wnt/β-catenin pathway — stimulating new neuron birth. Lutein regulates mitochondrial respiration. Lutein + zeaxanthin supplementation for 1 year improved attention and cognition in adults with mild dementia. They also reinforce the gut-brain axis from inside out.</p>
+        </div>
+      </div>
+
+      <!-- How to use -->
+      <h3 class="center" style="color:#fff;margin:3rem 0 1.5rem;font-size:clamp(1.3rem,2.5vw,1.8rem);">From Research to Your Diet</h3>
+      <div class="noo-usage-grid">
+        <div class="noo-usage-card reveal"><div class="noo-usage-icon">🍽️</div><h4>Functional Foods</h4><p>Add concentrated nootropic blends to everyday meals — smoothies, cereals, soups, dressings. No strict diet overhaul required.</p></div>
+        <div class="noo-usage-card reveal"><div class="noo-usage-icon">💊</div><h4>Precision Supplements</h4><p>Standardised, clinically dosed capsules and powders — DHA/EPA oils, curcumin complexes, polyphenol extracts — for targeted support.</p></div>
+        <div class="noo-usage-card reveal"><div class="noo-usage-icon">🥛</div><h4>Fortified Nutrition</h4><p>Ingredients for food manufacturers: omega-3 enriched oils, prebiotic fiber blends, polyphenol extracts for functional food and beverage products.</p></div>
+        <div class="noo-usage-card reveal"><div class="noo-usage-icon">🧬</div><h4>Dietary Pattern Support</h4><p>Aligned with MIND and Mediterranean dietary patterns — both clinically associated with reduced dementia risk and lower Alzheimer's pathology markers.</p></div>
+      </div>
+
+      <!-- Clinical Research Highlights -->
+      <div class="noo-research-box reveal">
+        <h3>The Science Is Clear</h3>
+        <blockquote>"Strong adherence to MIND or Mediterranean diets is significantly correlated with healthy cognitive aging, reduced dementia risk, and lower levels of neurodegeneration pathology."<cite>— Nguyen et al., Translational Neurodegeneration, 2025</cite></blockquote>
+        <blockquote>"Maternal imbalances in folate and choline can program offspring metabolic health through epigenetic mechanisms, with consequences spanning obesity, insulin resistance, and metabolic syndrome."<cite>— Chen, Schwartz &amp; Cho, Lifestyle Genomics, 2023</cite></blockquote>
+        <div class="noo-research-highlights">
+          <div>🐟 DHA + EPA → <strong>50 % reduction</strong> in depressive symptoms in Parkinson's patients</div>
+          <div>🌿 Curcumin (long-term) → <strong>enhanced memory</strong> and hippocampal connectivity in elderly</div>
+          <div>👁️ Lutein + zeaxanthin → <strong>improved attention</strong> and cognition in mild dementia</div>
+          <div>🌾 High-fiber diet → <strong>improved cognition</strong> and reduced neurodegeneration markers in Huntington's</div>
+          <div>🥔 Resistant starch → <strong>more effective than inulin</strong> in producing butyrate and lowering NfL biomarker</div>
+        </div>
+      </div>
+
+      <!-- Why GutRoots Nootropics -->
+      <h3 class="center" style="color:#fff;margin:3rem 0 1rem;font-size:clamp(1.3rem,2.5vw,1.8rem);">Why GutRoots Nootropics</h3>
+      <p class="center" style="color:rgba(255,255,255,.65);margin-bottom:1.5rem;">We Don't Guess. We Source From the Science.</p>
+      <div class="noo-why-grid">
+        <div class="noo-why-item reveal">✅ Ingredients backed by peer-reviewed clinical research</div>
+        <div class="noo-why-item reveal">✅ Formulations targeting multiple NDD pathways simultaneously</div>
+        <div class="noo-why-item reveal">✅ Gut-brain axis approach — addressing neurodegeneration at its upstream source</div>
+        <div class="noo-why-item reveal">✅ Transparency in dosing, sourcing, and bioavailability</div>
+        <div class="noo-why-item reveal">✅ Designed for everyday integration — not restrictive therapeutic diets</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 2 — WHAT IS THE GUT-BRAIN AXIS
+  ═══════════════════════════════════════════════ -->
+  <section class="section" id="what-is">
+    <div class="container two-col">
+      <div class="text-col reveal">
+        <p class="section-tag">WHAT IS IT?</p>
+        <h2>Your Gut Is Your <em>Second Brain</em></h2>
+        <p>The <strong>Gut–Brain Axis (GBA)</strong> is a bidirectional communication network linking the central nervous system with the enteric nervous system of the gastrointestinal tract. This superhighway uses neural, hormonal, and immunological pathways to keep your body in balance.</p>
+        <p>Scientists now recognise the gut microbiome — trillions of bacteria, fungi, and viruses — as a key regulator of brain chemistry, mood, immunity, and cognition.</p>
+        <a class="btn btn-primary" href="#science">Deep-Dive into the Science →</a>
+      </div>
+      <div class="card-col">
+        <div class="info-card reveal"><div class="card-icon">🔗</div><h3>Bidirectional</h3><p>Messages travel both ways — brain influences gut motility, and gut microbes influence brain chemistry.</p></div>
+        <div class="info-card reveal"><div class="card-icon">⚡</div><h3>Always On</h3><p>The vagus nerve carries continuous signals 24/7, making gut health inseparable from mental health.</p></div>
+        <div class="info-card reveal"><div class="card-icon">🛡️</div><h3>Immune Powerhouse</h3><p>Over 70 % of the immune system resides in the gut lining, directly influenced by your microbiome.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── HOW IT WORKS ─── -->
+  <section class="section section-alt" id="how-it-works">
+    <div class="container">
+      <p class="section-tag center">THE PATHWAYS</p>
+      <h2 class="center">How the Gut Talks to the Brain</h2>
+      <div class="pathway-grid">
+        <div class="pathway-card reveal" data-index="1"><div class="pathway-num">01</div><div class="pathway-icon">🧬</div><h3>Vagus Nerve</h3><p>The longest cranial nerve acts as the primary highway, transmitting microbiome signals directly to the brainstem within milliseconds.</p></div>
+        <div class="pathway-card reveal" data-index="2"><div class="pathway-num">02</div><div class="pathway-icon">💊</div><h3>Neurotransmitters</h3><p>Gut bacteria produce serotonin, dopamine, GABA, and acetylcholine — the same molecules that regulate mood, sleep, and focus.</p></div>
+        <div class="pathway-card reveal" data-index="3"><div class="pathway-num">03</div><div class="pathway-icon">🔥</div><h3>Immune &amp; Inflammation</h3><p>A leaky or dysbiotic gut triggers systemic inflammation that crosses the blood-brain barrier, linked to depression and cognitive decline.</p></div>
+        <div class="pathway-card reveal" data-index="4"><div class="pathway-num">04</div><div class="pathway-icon">⚗️</div><h3>Metabolites &amp; SCFAs</h3><p>Short-chain fatty acids (butyrate, propionate, acetate) nourish gut cells and regulate neuroinflammation.</p></div>
+        <div class="pathway-card reveal" data-index="5"><div class="pathway-num">05</div><div class="pathway-icon">📡</div><h3>HPA Axis &amp; Cortisol</h3><p>Stress activates the hypothalamic–pituitary–adrenal axis, altering gut permeability and microbiome diversity in a vicious cycle.</p></div>
+        <div class="pathway-card reveal" data-index="6"><div class="pathway-num">06</div><div class="pathway-icon">🧪</div><h3>Enteroendocrine Cells</h3><p>Specialised gut cells sense nutrients and release hormones like GLP-1 and PYY that regulate appetite and neuroprotection.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+
+  <!-- ─── CONDITIONS ─── -->
+  <section class="section section-dark" id="conditions">
+    <div class="container">
+      <p class="section-tag center" style="color:#60bb8a;">WHY IT MATTERS</p>
+      <h2 class="center" style="color:#fff;">Conditions Linked to Gut–Brain Disruption</h2>
+      <div class="condition-grid">
+        <div class="condition-badge">😔 Depression</div><div class="condition-badge">😰 Anxiety</div><div class="condition-badge">🧠 Alzheimer's</div><div class="condition-badge">🌀 Parkinson's</div><div class="condition-badge">😴 Insomnia</div><div class="condition-badge">🔥 IBS / IBD</div><div class="condition-badge">🍩 Obesity</div><div class="condition-badge">🩸 Type 2 Diabetes</div><div class="condition-badge">💥 Brain Fog</div><div class="condition-badge">🤧 Autoimmune</div><div class="condition-badge">📉 ADHD</div><div class="condition-badge">🌊 Chronic Fatigue</div>
+      </div>
+      <p class="center condition-note" style="color:rgba(255,255,255,.7);">Research is ongoing. Optimising the gut–brain axis is one of the most powerful levers for overall health.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION — NUTRITION
+  ═══════════════════════════════════════════════ -->
+  <section class="section" id="nutrition">
+    <div class="container">
+      <p class="section-tag center">NUTRITION GUIDE</p>
+      <h2 class="center">Eat for Your Gut &amp; Mind</h2>
+      <p class="center sub-intro">Click each tile to explore detailed nutrition guidance.</p>
+
+      <!-- Probiotic Powerhouses -->
+      <div class="nutrition-tile reveal">
+        <button class="nutrition-tile-header" aria-expanded="false">
+          <span class="tile-icon">🥛</span>
+          <span class="tile-title">Probiotic Powerhouses — Fermented Foods</span>
+          <span class="tile-arrow">▾</span>
+        </button>
+        <div class="nutrition-tile-content">
+          <div class="food-grid">
+            <div class="food-card"><div class="food-emoji">🥛</div><h3>Kefir</h3><p>Up to 61 probiotic strains. Drink 150–200 ml daily or blend into smoothies.</p></div>
+            <div class="food-card"><div class="food-emoji">🥬</div><h3>Sauerkraut</h3><p>Unpasteurised fermented cabbage. 1–2 tbsp daily as a side or topping.</p></div>
+            <div class="food-card"><div class="food-emoji">🌶️</div><h3>Kimchi</h3><p>Korean fermented vegs with anti-inflammatory capsaicin. 3–4× per week.</p></div>
+            <div class="food-card"><div class="food-emoji">🍵</div><h3>Kombucha</h3><p>Fermented tea with B vitamins and GABA-producing bacteria. 100–200 ml daily.</p></div>
+            <div class="food-card"><div class="food-emoji">🧇</div><h3>Yogurt</h3><p>Look for "live cultures" and no added sugar. 150–200 g daily with berries.</p></div>
+            <div class="food-card"><div class="food-emoji">🫘</div><h3>Miso &amp; Tempeh</h3><p>Fermented soy rich in isoflavones. Miso soup daily; tempeh 3×/week.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prebiotic Fibre -->
+      <div class="nutrition-tile reveal">
+        <button class="nutrition-tile-header" aria-expanded="false">
+          <span class="tile-icon">🌾</span>
+          <span class="tile-title">Prebiotic Fibre — The Real Brain Food</span>
+          <span class="tile-arrow">▾</span>
+        </button>
+        <div class="nutrition-tile-content">
+          <div class="fibre-table-wrap">
+            <table class="fibre-table">
+              <thead><tr><th>Food</th><th>Key Prebiotic</th><th>SCFA Produced</th><th>Brain Benefit</th></tr></thead>
+              <tbody>
+                <tr><td>🧄 Garlic</td><td>Inulin, FOS</td><td>Butyrate</td><td>Reduces neuroinflammation</td></tr>
+                <tr><td>🧅 Onions &amp; Leeks</td><td>Fructooligosaccharides</td><td>Butyrate</td><td>Serotonin production</td></tr>
+                <tr><td>🍌 Unripe Banana</td><td>Resistant starch</td><td>Butyrate</td><td>Boosts <em>Akkermansia</em></td></tr>
+                <tr><td>🌾 Oats</td><td>Beta-glucan</td><td>Propionate</td><td>Reduces cortisol</td></tr>
+                <tr><td>🫐 Blueberries</td><td>Polyphenols</td><td>Acetate</td><td>Neuroprotection, BDNF ↑</td></tr>
+                <tr><td>🍫 Dark Chocolate 70 %+</td><td>Polyphenols</td><td>Acetate</td><td>Reduces cortisol, boosts <em>Lactobacillus</em></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Micronutrients -->
+      <div class="nutrition-tile reveal">
+        <button class="nutrition-tile-header" aria-expanded="false">
+          <span class="tile-icon">💊</span>
+          <span class="tile-title">Key Micronutrients</span>
+          <span class="tile-arrow">▾</span>
+        </button>
+        <div class="nutrition-tile-content">
+          <div class="nutrient-grid">
+            <div class="nutrient-card"><div class="nut-icon">🐟</div><h3>Omega-3</h3><p>EPA &amp; DHA reduce neuroinflammation, support the gut lining, increase BDNF.</p></div>
+            <div class="nutrient-card"><div class="nut-icon">💊</div><h3>Magnesium</h3><p>Regulates NMDA receptors, reduces gut inflammation, improves sleep.</p></div>
+            <div class="nutrient-card"><div class="nut-icon">☀️</div><h3>Vitamin D</h3><p>Modulates tight junctions. Deficiency linked to depression &amp; gut dysbiosis.</p></div>
+            <div class="nutrient-card"><div class="nut-icon">🌿</div><h3>B Vitamins</h3><p>Cofactors for serotonin &amp; dopamine synthesis. B12 deficiency mimics depression.</p></div>
+            <div class="nutrient-card"><div class="nut-icon">🦪</div><h3>Zinc</h3><p>Critical for gut lining integrity and neuroplasticity. Low zinc → IBS, anxiety.</p></div>
+            <div class="nutrient-card"><div class="nut-icon">🍀</div><h3>Polyphenols</h3><p>Prebiotic plant compounds that selectively feed <em>Bifidobacterium</em> &amp; <em>Lactobacillus</em>.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lifestyle Factors -->
+      <div class="nutrition-tile reveal">
+        <button class="nutrition-tile-header" aria-expanded="false">
+          <span class="tile-icon">🧘</span>
+          <span class="tile-title">Lifestyle Factors</span>
+          <span class="tile-arrow">▾</span>
+        </button>
+        <div class="nutrition-tile-content">
+          <div class="lifestyle-grid">
+            <div class="lifestyle-item"><div class="ls-icon">🧘</div><h3>Meditation</h3><p>8 weeks of MBSR changes microbiome composition &amp; reduces IBS symptoms.</p></div>
+            <div class="lifestyle-item"><div class="ls-icon">🏃</div><h3>Exercise</h3><p>150 min/week increases <em>Akkermansia muciniphila</em> — linked to mental health.</p></div>
+            <div class="lifestyle-item"><div class="ls-icon">😴</div><h3>Sleep</h3><p>7–9 hours. Disrupted sleep reduces <em>Bacteroidetes</em>, increases gut permeability.</p></div>
+            <div class="lifestyle-item"><div class="ls-icon">🌿</div><h3>Nature</h3><p>Forest bathing introduces environmental microbes; reduces cortisol.</p></div>
+            <div class="lifestyle-item"><div class="ls-icon">🤝</div><h3>Connection</h3><p>Loneliness increases gut permeability. Social bonds predict microbiome diversity.</p></div>
+            <div class="lifestyle-item"><div class="ls-icon">❄️</div><h3>Cold Exposure</h3><p>Activates the vagus nerve, boosts norepinephrine, reduces depression.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 6 — DAILY RITUAL
+  ═══════════════════════════════════════════════ -->
+  <section class="section section-alt" id="ritual">
+    <div class="container">
+      <p class="section-tag center">YOUR DAILY RITUAL</p>
+      <h2 class="center">How to Use Our Products Every Day</h2>
+      <div class="ritual-timeline">
+        <div class="ritual-item reveal">
+          <div class="ritual-time">🌅 Morning</div>
+          <div class="ritual-body">
+            <h3>Munagaku (Moringa) Smoothie or Dosa</h3>
+            <p>1 tsp Moringa Powder in warm water or smoothie — or cook 2 Munagaku Dosa from our batter. 90+ nutrients kick-start your microbiome.</p>
+          </div>
+        </div>
+        <div class="ritual-item reveal">
+          <div class="ritual-time">☕ Mid-Morning</div>
+          <div class="ritual-body">
+            <h3>Mushroom Coffee</h3>
+            <p>Replace your regular coffee with our Lion's Mane + Chaga blend. Smooth focus, zero jitters, gut-friendly.</p>
+          </div>
+        </div>
+        <div class="ritual-item reveal">
+          <div class="ritual-time">🍛 Meals</div>
+          <div class="ritual-body">
+            <h3>Curry Leaf Powder + Turmeric Blend in Cooking</h3>
+            <p>Sprinkle Curry Leaf Powder on rice, dal, or curries. Add ¼ tsp Turmeric Blend to soups or gravies. Memory + gut protection in every bite.</p>
+          </div>
+        </div>
+        <div class="ritual-item reveal">
+          <div class="ritual-time">🌙 Evening</div>
+          <div class="ritual-body">
+            <h3>Ashwagandha in Warm Milk</h3>
+            <p>½ tsp golden milk style. Cortisol ↓ 27 %, GABA ↑, gut permeability restored. Perfect wind-down.</p>
+          </div>
+        </div>
+        <div class="ritual-item reveal">
+          <div class="ritual-time">🛌 Bedtime</div>
+          <div class="ritual-body">
+            <h3>Reishi or Mushroom Blend Tea</h3>
+            <p>½ tsp Reishi or 5-Blend Mushroom Powder in herbal tea 30–60 min before bed. Beta-glucans calm gut immunity for overnight repair.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 7 — SHOP
+  ═══════════════════════════════════════════════ -->
+  <section class="section section-dark" id="shop">
+    <div class="container">
+      <p class="section-tag center" style="color:#60bb8a;">SHOP GUTROOTS</p>
+      <h2 class="center" style="color:#fff;">Pure Herbal Nootropics, Delivered to Your Door</h2>
+
+      <!-- Filter -->
+      <div class="shop-filter-row">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="gut">Gut Health</button>
+        <button class="filter-btn" data-filter="brain">Brain &amp; Focus</button>
+        <button class="filter-btn" data-filter="stress">Stress &amp; Sleep</button>
+        <button class="filter-btn" data-filter="immunity">Immunity</button>
+        <button class="filter-btn" data-filter="kitchen">Kitchen Ready</button>
+        <button class="filter-btn" data-filter="bundle">Bundles</button>
+      </div>
+
+      <div class="shop-grid">
+        <!-- Daily Essentials Bundle -->
+        <article class="shop-card reveal" data-tags="bundle gut brain stress kitchen">
+          <div class="shop-card-top" style="background:linear-gradient(135deg,#e8f5ee,#ede8ff);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Turmeric_and_Moringa_oleifera_powder_CNE_02.jpg/600px-Turmeric_and_Moringa_oleifera_powder_CNE_02.jpg" alt="Daily Essentials Bundle" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-purple">🌟 Most Popular</span>
+            <h3>Daily Essentials Bundle</h3>
+            <p>Moringa + Lion's Mane + Curry Leaf + Mushroom Coffee · 30-day supply · Usage Guide</p>
+            <div class="shop-price-row"><div class="shop-price">₹1,799</div><div class="shop-original">₹2,346 <span class="shop-save">Save ₹600</span></div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Daily Essentials Bundle" data-price="1799">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Brain Focus Bundle -->
+        <article class="shop-card reveal" data-tags="bundle brain gut">
+          <div class="shop-card-top" style="background:linear-gradient(135deg,#ede8ff,#e0f5f9);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Hericium_erinaceus%2CLion%27s_Mane%2C_Hedgehog_Mushroom.jpg/600px-Hericium_erinaceus%2CLion%27s_Mane%2C_Hedgehog_Mushroom.jpg" alt="Brain Focus Bundle" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-purple">Focus Stack</span>
+            <h3>Brain Focus Bundle</h3>
+            <p>Lion's Mane + Mushroom Coffee + Curry Leaf · 30-day supply</p>
+            <div class="shop-price-row"><div class="shop-price">₹1,399</div><div class="shop-original">₹1,747 <span class="shop-save">Save ₹350</span></div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Brain Focus Bundle" data-price="1399">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Moringa Powder -->
+        <article class="shop-card reveal" data-tags="gut brain">
+          <div class="shop-card-top moringa-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Turmeric_and_Moringa_oleifera_powder_CNE_02.jpg/600px-Turmeric_and_Moringa_oleifera_powder_CNE_02.jpg" alt="Moringa powder" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge">⭐ Best Seller</span>
+            <h3>Munagaku (Moringa) Powder</h3>
+            <p>90+ nutrients · Prebiotic · Anti-inflammatory · 200 g</p>
+            <div class="shop-price-row"><div class="shop-price">₹599</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Moringa Powder" data-price="599">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Munagaku Dosa Batter -->
+        <article class="shop-card reveal" data-tags="kitchen gut brain">
+          <div class="shop-card-top" style="background:linear-gradient(135deg,#e8f5ee,#f0ffe8);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Masala_dosa_01.jpg/600px-Masala_dosa_01.jpg" alt="Munagaku Dosa Batter" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-green">🥘 Ready-to-Cook</span>
+            <h3>Munagaku Dosa Batter</h3>
+            <p>Moringa-fortified · Fermented probiotic · 1 kg (~12 dosas)</p>
+            <div class="shop-price-row"><div class="shop-price">₹349</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Munagaku Dosa Batter" data-price="349">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Curry Leaf Powder -->
+        <article class="shop-card reveal" data-tags="brain gut">
+          <div class="shop-card-top" style="background:linear-gradient(135deg,#e8f5ee,#d4edda);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/CURRY_LEAVES_PASTE_AND_POWDER.jpg/400px-CURRY_LEAVES_PASTE_AND_POWDER.jpg" alt="Curry leaf powder" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-green">🌿 Memory Shield</span>
+            <h3>Curry Leaf Powder</h3>
+            <p>Mahanimbine · Acetylcholinesterase inhibitor · 150 g</p>
+            <div class="shop-price-row"><div class="shop-price">₹299</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Curry Leaf Powder" data-price="299">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Lion's Mane -->
+        <article class="shop-card reveal" data-tags="brain gut">
+          <div class="shop-card-top lionsmane-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Hericium_erinaceus%2CLion%27s_Mane%2C_Hedgehog_Mushroom.jpg/600px-Hericium_erinaceus%2CLion%27s_Mane%2C_Hedgehog_Mushroom.jpg" alt="Lion's Mane mushroom" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-purple">🧠 Focus</span>
+            <h3>Lion's Mane Mushroom Powder</h3>
+            <p>NGF stimulation · Gut lining repair · 150 g</p>
+            <div class="shop-price-row"><div class="shop-price">₹799</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Lion's Mane Powder" data-price="799">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Mushroom Powder 5-Blend -->
+        <article class="shop-card reveal" data-tags="immunity brain gut">
+          <div class="shop-card-top" style="background:linear-gradient(135deg,#ede8ff,#e0d4f5);"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Ganoderma_lucidum_01.jpg" alt="Mushroom 5-Blend" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-purple">🍄 5-Blend</span>
+            <h3>Mushroom Powder (5-Blend)</h3>
+            <p>Lion's Mane · Reishi · Chaga · Cordyceps · Turkey Tail · 150 g</p>
+            <div class="shop-price-row"><div class="shop-price">₹899</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Mushroom 5-Blend" data-price="899">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Mushroom Coffee -->
+        <article class="shop-card reveal" data-tags="brain kitchen stress">
+          <div class="shop-card-top" style="background:linear-gradient(135deg,#f5e6d3,#e8d5c0);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Brewing_lion%E2%80%99s_mane_mushroom_tea.jpg/400px-Brewing_lion%E2%80%99s_mane_mushroom_tea.jpg" alt="Mushroom coffee" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-amber">☕ Daily Ritual</span>
+            <h3>Mushroom Coffee</h3>
+            <p>Arabica + Lion's Mane + Chaga · 200 g (30 cups)</p>
+            <div class="shop-price-row"><div class="shop-price">₹649</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Mushroom Coffee" data-price="649">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Ashwagandha -->
+        <article class="shop-card reveal" data-tags="stress gut">
+          <div class="shop-card-top ashwa-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ashwagandha_Powder_and_Root_on_Spoons_-_50191697031.jpg/600px-Ashwagandha_Powder_and_Root_on_Spoons_-_50191697031.jpg" alt="Ashwagandha root powder" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-amber">🌙 Stress</span>
+            <h3>Ashwagandha Root Powder</h3>
+            <p>HPA axis · Cortisol control · 200 g</p>
+            <div class="shop-price-row"><div class="shop-price">₹549</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Ashwagandha Powder" data-price="549">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Reishi -->
+        <article class="shop-card reveal" data-tags="immunity gut">
+          <div class="shop-card-top reishi-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Ganoderma_lucidum_01.jpg" alt="Reishi mushroom" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-teal">🛡️ Immunity</span>
+            <h3>Reishi Mushroom Powder</h3>
+            <p>Beta-glucans · Gut immunity · 150 g</p>
+            <div class="shop-price-row"><div class="shop-price">₹699</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Reishi Powder" data-price="699">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Turmeric -->
+        <article class="shop-card reveal" data-tags="gut immunity">
+          <div class="shop-card-top turmeric-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Kunyit_Bubuk.jpg/600px-Kunyit_Bubuk.jpg" alt="Turmeric powder" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge badge-amber">🔥 Anti-Inflammatory</span>
+            <h3>Turmeric + Black Pepper</h3>
+            <p>Curcumin + Piperine · 2000 % absorption · 200 g</p>
+            <div class="shop-price-row"><div class="shop-price">₹449</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Turmeric Blend" data-price="449">Add to Cart</button>
+          </div>
+        </article>
+        <!-- Triphala -->
+        <article class="shop-card reveal" data-tags="gut stress">
+          <div class="shop-card-top triphala-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ashwagandha_Powder_and_Root_on_Spoons_-_50191697031.jpg/600px-Ashwagandha_Powder_and_Root_on_Spoons_-_50191697031.jpg" alt="Triphala herbal blend" loading="lazy" referrerpolicy="no-referrer"></div>
+          <div class="shop-card-body">
+            <span class="shop-badge">🧹 Gut Cleanse</span>
+            <h3>Triphala Blend</h3>
+            <p>Amla + Haritaki + Bibhitaki · 200 g</p>
+            <div class="shop-price-row"><div class="shop-price">₹399</div></div>
+            <button class="btn btn-primary add-cart-btn" data-product="Triphala Blend" data-price="399">Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TESTIMONIALS ─── -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <p class="section-tag center">REAL RESULTS</p>
+      <h2 class="center">What Our Customers Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card reveal"><div class="stars">⭐⭐⭐⭐⭐</div><p class="testimonial-text">"I've been taking Moringa for 6 weeks. No more afternoon bloating, and my mind feels sharper than in years."</p><div class="testimonial-author"><div class="author-avatar">PR</div><div><strong>Priya R.</strong><span>Hyderabad · Verified</span></div></div></div>
+        <div class="testimonial-card reveal"><div class="stars">⭐⭐⭐⭐⭐</div><p class="testimonial-text">"Lion's Mane in my coffee + Moringa in my smoothie = zero brain fog by 9 AM. As someone with IBS, my gut has never been this settled."</p><div class="testimonial-author"><div class="author-avatar">AK</div><div><strong>Arjun K.</strong><span>Bangalore · Verified</span></div></div></div>
+        <div class="testimonial-card reveal"><div class="stars">⭐⭐⭐⭐⭐</div><p class="testimonial-text">"Ashwagandha at night is life-changing. After 3 weeks, gut cramps from stress reduced, I sleep 7 hours straight."</p><div class="testimonial-author"><div class="author-avatar">SM</div><div><strong>Sneha M.</strong><span>Chennai · Verified</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── QUALITY PROMISE ─── -->
+  <section class="section section-alt" id="quality">
+    <div class="container">
+      <p class="section-tag center">WHY GUTROOTS</p>
+      <h2 class="center">Our Quality Promise</h2>
+      <div class="quality-grid">
+        <div class="quality-item reveal"><div class="q-icon">🌿</div><h3>Single-Ingredient Purity</h3><p>100 % the herb. No blends, no fillers, no compromise.</p></div>
+        <div class="quality-item reveal"><div class="q-icon">🔬</div><h3>Third-Party Lab Tested</h3><p>Every batch tested for heavy metals, microbes &amp; potency by NABL lab.</p></div>
+        <div class="quality-item reveal"><div class="q-icon">🌾</div><h3>Traditionally Sourced</h3><p>Moringa from Andhra Pradesh, Ashwagandha from Rajasthan.</p></div>
+        <div class="quality-item reveal"><div class="q-icon">♻️</div><h3>Eco-Friendly Packaging</h3><p>100 % recyclable or compostable. Carbon-offset shipping.</p></div>
+        <div class="quality-item reveal"><div class="q-icon">🔄</div><h3>30-Day Guarantee</h3><p>No results in 30 days? Full refund, no questions asked.</p></div>
+        <div class="quality-item reveal"><div class="q-icon">📞</div><h3>Expert Support</h3><p>Free personalised herb protocol from our wellness advisors.</p></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION — GLOBAL NOOTROPIC DIET PACKAGES
+  ═══════════════════════════════════════════════ -->
+  <section class="section" id="diet-packages">
+    <div class="container">
+      <p class="section-tag center">GLOBAL DIET PACKAGES</p>
+      <h2 class="center">Eat for Your Brain. Designed for Your World.</h2>
+      <p class="center sub-intro">Six disease-targeted, culturally adapted nootropic diet programmes — built from peer-reviewed clinical science, formulated for real kitchens across Asia, Europe, the Middle East, and beyond.</p>
+
+      <div class="pkg-stats-row">
+        <div class="pkg-stat-item reveal"><span class="pkg-stat-num">6</span><span class="pkg-stat-label">Disease Packages</span></div>
+        <div class="pkg-stat-item reveal"><span class="pkg-stat-num">8</span><span class="pkg-stat-label">Global Regions</span></div>
+        <div class="pkg-stat-item reveal"><span class="pkg-stat-num">40+</span><span class="pkg-stat-label">Nootropic Foods</span></div>
+        <div class="pkg-stat-item reveal"><span class="pkg-stat-num">100%</span><span class="pkg-stat-label">Science-Backed</span></div>
+      </div>
+
+      <!-- Package Tabs -->
+      <div class="pkg-tab-row">
+        <button class="pkg-tab active" data-pkg="pkg-alzheimer">🧠 Alzheimer's</button>
+        <button class="pkg-tab" data-pkg="pkg-parkinson">⚡ Parkinson's</button>
+        <button class="pkg-tab" data-pkg="pkg-metabolic">⚖️ Metabolic</button>
+        <button class="pkg-tab" data-pkg="pkg-depression">🌊 Depression</button>
+        <button class="pkg-tab" data-pkg="pkg-maternal">🌱 Maternal</button>
+        <button class="pkg-tab" data-pkg="pkg-aging">🌿 Aging</button>
+      </div>
+
+      <!-- ─── PKG 1: ALZHEIMER'S ─── -->
+      <div class="pkg-panel active" id="pkg-alzheimer">
+        <div class="pkg-head">
+          <div>
+            <p class="pkg-region">🌍 South Asia · Middle East · Mediterranean</p>
+            <h3 class="pkg-title">The Clarity Protocol for Alzheimer's Disease</h3>
+            <p class="pkg-subtitle">A MIND-aligned, culturally adapted nootropic diet targeting amyloid-beta clearance, tau reduction, neuroinflammation, and gut-brain axis restoration — drawing on Indian, Arab, and Mediterranean food traditions.</p>
+          </div>
+          <div class="pkg-badge-box"><div class="pkg-badge-emoji">🧠</div><div class="pkg-badge-name">Clarity Protocol</div></div>
+        </div>
+
+        <div class="pkg-science-box reveal">
+          <h4>The Science Behind This Package</h4>
+          <p>Alzheimer's pathology involves amyloid-beta (Aβ) plaque deposition, tau tangles, chronic neuroinflammation, and oxidative stress. Dietary DHA, curcumin, polyphenols, and prebiotic fibers directly counter these mechanisms.</p>
+          <ul>
+            <li>DHA supplementation slows cognitive decline in AD patients on acetylcholinesterase inhibitors</li>
+            <li>Curcumin enhances memory and hippocampal connectivity in elderly</li>
+            <li>MIND diet adherence associated with reduced Aβ, p-tau181, and APOE4 pathology markers</li>
+            <li>Inulin promotes SCFA-producing bacteria, reducing AD risk in APOE4 models</li>
+            <li>Lycopene activates Wnt/β-catenin neurogenesis pathway; improves spatial memory in AD models</li>
+          </ul>
+        </div>
+
+        <h4 class="pkg-section-label">🍽️ Daily Meal Plan — 7-Day Rotating Programme</h4>
+        <div class="pkg-meal-grid">
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌅</span><div><small>Breakfast</small><strong>Golden Brain Bowl</strong></div></div>
+            <ul>
+              <li>Turmeric oat porridge with black pepper <em>Curcumin + piperine → SIRT1 activator</em></li>
+              <li>Walnuts &amp; flaxseed topping <em>ALA omega-3 → DHA precursor</em></li>
+              <li>Blueberries or pomegranate seeds <em>Anthocyanins → reduce Aβ deposition</em></li>
+              <li>Green tea (1 cup) <em>EGCG → delays misfolded protein aggregation</em></li>
+              <li>1 boiled egg <em>Choline → one-carbon metabolism support</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>☀️</span><div><small>Lunch</small><strong>Mediterranean Power Plate</strong></div></div>
+            <ul>
+              <li>Grilled salmon or sardines (150 g) <em>DHA + EPA → reduces neuroinflammation, tau</em></li>
+              <li>Olive oil dressing (extra virgin) <em>Oleocanthal → anti-neuroinflammatory</em></li>
+              <li>Spinach, tomatoes, carrots salad <em>Lutein + lycopene → neuroprotection</em></li>
+              <li>Lentil soup with garlic &amp; turmeric <em>Prebiotics + curcumin synergy</em></li>
+              <li>Whole grain bread (1 slice) <em>Arabinoxylan fiber → gut-brain axis</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌆</span><div><small>Dinner</small><strong>Ayurvedic Neuroprotect</strong></div></div>
+            <ul>
+              <li>Dal with fenugreek &amp; ginger <em>Flavonoids + fiber → gut microbiome repair</em></li>
+              <li>Amla chutney <em>Vitamin C + tannins → antioxidant cascade</em></li>
+              <li>Brown rice with cumin <em>Resistant starch → butyrate production</em></li>
+              <li>Ashwagandha milk (warm) <em>Withanolides → cortisol &amp; neuroinflammation</em></li>
+              <li>Mixed seeds garnish <em>Zinc + magnesium → synaptic function</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🍵</span><div><small>Snacks</small><strong>Nootropic Nibbles</strong></div></div>
+            <ul>
+              <li>Dark chocolate (85 %+, 30 g) <em>Flavanols → BDNF upregulation</em></li>
+              <li>Brazil nuts (2-3) <em>Selenium → antioxidant enzyme support</em></li>
+              <li>Kefir or yoghurt (150 g) <em>Probiotics → gut-brain axis homeostasis</em></li>
+              <li>Rosemary-infused olive oil dip <em>Rosmarinic acid → anti-neuroinflammation</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 class="pkg-section-label">💊 Supplement Stack</h4>
+        <div class="pkg-supp-grid">
+          <div class="pkg-supp-card reveal"><strong>Algal DHA</strong><span>900 mg/day · with breakfast</span><p>Improves memory &amp; learning in age-related cognitive decline. Reduces cognitive decline risk in AD patients.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Bioavailable Curcumin</strong><span>180 mg/day · nanoform</span><p>Enhances memory, hippocampal connectivity. 18-month trial shows significant results.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Resveratrol</strong><span>200 mg/day</span><p>Improves memory, hippocampal functional connectivity, glucose metabolism in healthy elderly.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Inulin Prebiotic</strong><span>5 g/day · powder</span><p>Promotes SCFA-producing bacteria, reduces AD risk in APOE4, decreases neuroinflammation.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Lutein + Zeaxanthin</strong><span>10 mg + 2 mg/day</span><p>Improves attention and cognition in mild dementia. Regulates mitochondrial respiration.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Vitamin B12 + Folate</strong><span>500 mcg B12 + 400 mcg Folate</span><p>Balanced intake reduces Aβ load and brain atrophy markers.</p></div>
+        </div>
+
+        <h4 class="pkg-section-label">📅 7-Day Rotation Plan</h4>
+        <div class="pkg-table-wrap">
+          <table class="pkg-weekly-table">
+            <thead><tr><th>Day</th><th>Breakfast</th><th>Lunch</th><th>Dinner</th><th>Key Nootropic</th></tr></thead>
+            <tbody>
+              <tr><td>Monday</td><td>Turmeric oat bowl + walnuts</td><td>Salmon salad + olive oil</td><td>Lentil dal + brown rice</td><td class="pkg-highlight">DHA + Curcumin</td></tr>
+              <tr><td>Tuesday</td><td>Blueberry smoothie + flaxseed</td><td>Chickpea stew + spinach</td><td>Grilled mackerel + quinoa</td><td class="pkg-highlight">Anthocyanins + EPA</td></tr>
+              <tr><td>Wednesday</td><td>Green tea + egg + toast</td><td>Tuna + tomato + olive oil</td><td>Mushroom soup + barley</td><td class="pkg-highlight">EGCG + Lycopene</td></tr>
+              <tr><td>Thursday</td><td>Pomegranate yoghurt + seeds</td><td>Grilled sardines + kale</td><td>Moong dal khichdi + amla</td><td class="pkg-highlight">Resveratrol + Vit C</td></tr>
+              <tr><td>Friday</td><td>Black rice porridge + berries</td><td>Beetroot + walnut salad</td><td>Baked salmon + asparagus</td><td class="pkg-highlight">Anthocyanins + Folate</td></tr>
+              <tr><td>Saturday</td><td>Ashwagandha oats + banana</td><td>Mediterranean mezze plate</td><td>Turmeric fish curry + rice</td><td class="pkg-highlight">Adaptogens + DHA</td></tr>
+              <tr><td>Sunday</td><td>Avocado + egg + whole grain</td><td>Lentil + vegetable soup</td><td>Ginger-garlic broth + noodles</td><td class="pkg-highlight">Choline + Prebiotics</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 class="pkg-section-label">🚫 Foods to Avoid</h4>
+        <div class="pkg-avoid-grid">
+          <div class="pkg-avoid-item"><strong>Ultra-processed foods</strong> Accelerate brain aging, worsen AD symptoms</div>
+          <div class="pkg-avoid-item"><strong>Artificial sweeteners</strong> Linked to cognitive decline in 12-yr study</div>
+          <div class="pkg-avoid-item"><strong>High-sugar foods</strong> Increase Aβ production, worsen insulin resistance</div>
+          <div class="pkg-avoid-item"><strong>Excess saturated fat</strong> Increases ROS susceptibility in brain</div>
+          <div class="pkg-avoid-item"><strong>Alcohol</strong> Depletes thiamine, damages hippocampal neurons</div>
+          <div class="pkg-avoid-item"><strong>Trans fats</strong> Disrupt blood-brain barrier integrity</div>
+        </div>
+
+        <h4 class="pkg-section-label">🧘 Lifestyle Adjuncts</h4>
+        <div class="pkg-lifestyle-grid">
+          <div class="pkg-lifestyle-card reveal"><span>🧘</span><h4>Yoga Nidra</h4><p>30 min daily. Reduces cortisol, supports hippocampal neurogenesis pathways activated by dietary flavonoids.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🚶</span><h4>Morning Walk</h4><p>45 min brisk walk after breakfast. Increases BDNF — synergises with dietary polyphenols on neurogenesis.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>😴</span><h4>Sleep Protocol</h4><p>7–9 hours. Sleep drives glymphatic Aβ clearance. Ashwagandha milk at bedtime supports quality sleep.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🫁</span><h4>Pranayama</h4><p>Alternate nostril breathing 10 min/day. Reduces HPA axis hyperactivation in AD.</p></div>
+        </div>
+      </div>
+
+      <!-- ─── PKG 2: PARKINSON'S ─── -->
+      <div class="pkg-panel" id="pkg-parkinson">
+        <div class="pkg-head">
+          <div>
+            <p class="pkg-region">🌍 East Asia · Eastern Europe · Latin America</p>
+            <h3 class="pkg-title">The Movement Protocol for Parkinson's Disease</h3>
+            <p class="pkg-subtitle">A ketogenic-Mediterranean hybrid nootropic diet targeting dopaminergic pathway support, alpha-synuclein reduction, mitochondrial repair, and gut dysbiosis reversal.</p>
+          </div>
+          <div class="pkg-badge-box"><div class="pkg-badge-emoji">⚡</div><div class="pkg-badge-name">Movement Protocol</div></div>
+        </div>
+
+        <div class="pkg-science-box reveal">
+          <h4>The Science Behind This Package</h4>
+          <p>Parkinson's disease likely begins in the gut through alpha-synuclein misfolding in the enteric nervous system. Mitochondrial dysfunction, oxidative stress, and dopamine depletion drive progression. n-3 PUFAs, curcumin, dietary fiber, and amino acids directly address these mechanisms.</p>
+          <ul>
+            <li>DHA (800 mg) + EPA (290 mg) for 6 months → 50 % reduction in depressive symptoms in PD</li>
+            <li>n-3 PUFA + Vitamin E → improved UPDRS scores, increased antioxidant capacity</li>
+            <li>Ketogenic diet (24 weeks) → reduced depression and Parkinson Anxiety Scale</li>
+            <li>Resistant starch → more effective than inulin in butyrate production, lowering NfL marker</li>
+            <li>Curcumin (2 g/day) reduces phosphorylated alpha-synuclein aggregation</li>
+          </ul>
+        </div>
+
+        <h4 class="pkg-section-label">🍽️ Daily Meal Plan</h4>
+        <div class="pkg-meal-grid">
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌅</span><div><small>Breakfast</small><strong>Mitochondrial Ignition</strong></div></div>
+            <ul>
+              <li>Avocado + poached eggs on rye <em>Choline + fats → dopamine synthesis</em></li>
+              <li>MCT oil in coffee <em>Ketone bodies → alternative brain fuel</em></li>
+              <li>Fermented miso soup <em>Probiotics → alpha-synuclein gut pathway</em></li>
+              <li>Ground flaxseed (2 tbsp) <em>ALA → EPA/DHA precursor</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>☀️</span><div><small>Lunch</small><strong>Dopamine Builder</strong></div></div>
+            <ul>
+              <li>Mackerel or salmon (200 g) <em>DHA + EPA → reduces motor severity</em></li>
+              <li>Fermented vegetables <em>SCFAs → protect enteric nervous system</em></li>
+              <li>Avocado &amp; walnut salad <em>Tyrosine → dopamine precursor</em></li>
+              <li>Olive oil + lemon dressing <em>Oleic acid → anti-neuroinflammation</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌆</span><div><small>Dinner</small><strong>Gut-Brain Repair</strong></div></div>
+            <ul>
+              <li>Bone broth soup <em>Glycine → neuroprotection</em></li>
+              <li>Broccoli + cauliflower <em>Sulforaphane → Nrf2 antioxidant pathway</em></li>
+              <li>Cooled potato (resistant starch) <em>Butyrate → lowers NfL</em></li>
+              <li>Turmeric + black pepper <em>Curcumin → reduces alpha-synuclein</em></li>
+              <li>Kefir (200 ml) <em>Probiotics → enteric nervous system balance</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🍵</span><div><small>Snacks</small><strong>Motor Support</strong></div></div>
+            <ul>
+              <li>Macadamia nuts + pumpkin seeds <em>Magnesium → neuromuscular function</em></li>
+              <li>Matcha green tea <em>EGCG → delays alpha-synuclein misfolding</em></li>
+              <li>Mucuna pruriens smoothie <em>Natural L-DOPA → dopamine precursor</em></li>
+              <li>Dark berries (açaí, blueberry) <em>Anthocyanins → excitotoxicity protection</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 class="pkg-section-label">💊 Supplement Stack</h4>
+        <div class="pkg-supp-grid">
+          <div class="pkg-supp-card reveal"><strong>DHA + EPA Fish Oil</strong><span>800 mg DHA + 290 mg EPA/day</span><p>50 % reduction in depressive symptoms vs 25 % placebo.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Vitamin E</strong><span>400 IU/day</span><p>With n-3 PUFA: increases TAC and GSH. Improves UPDRS scores.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Curcumin (Bioavailable)</strong><span>2 g/day · phytosomal</span><p>Reduces alpha-synuclein aggregation. Improves UPDRS clinical scores.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Resistant Starch</strong><span>10 g/day</span><p>More effective than inulin in butyrate production. Lowers NfL.</p></div>
+          <div class="pkg-supp-card reveal"><strong>CoQ10</strong><span>600 mg/day</span><p>Supports mitochondrial function disrupted by PINK1 mutations.</p></div>
+          <div class="pkg-supp-card reveal"><strong>L-Tyrosine</strong><span>500 mg/day</span><p>Direct dopamine precursor. Supports dopaminergic pathway.</p></div>
+        </div>
+
+        <h4 class="pkg-section-label">📅 7-Day Rotation Plan</h4>
+        <div class="pkg-table-wrap">
+          <table class="pkg-weekly-table">
+            <thead><tr><th>Day</th><th>Breakfast</th><th>Lunch</th><th>Dinner</th><th>Key Focus</th></tr></thead>
+            <tbody>
+              <tr><td>Monday</td><td>MCT coffee + avocado eggs</td><td>Salmon + fermented veg</td><td>Bone broth + resistant starch</td><td class="pkg-highlight">Dopamine + Mitochondria</td></tr>
+              <tr><td>Tuesday</td><td>Miso soup + flaxseed bowl</td><td>Mackerel + kale salad</td><td>Turmeric cauliflower soup</td><td class="pkg-highlight">Alpha-synuclein reduction</td></tr>
+              <tr><td>Wednesday</td><td>Kefir smoothie + nuts</td><td>Tuna + walnut + avocado</td><td>Baked sardines + broccoli</td><td class="pkg-highlight">Gut-brain axis repair</td></tr>
+              <tr><td>Thursday</td><td>Poached eggs + rye + matcha</td><td>Kimchi + tofu + sesame oil</td><td>Glycine soup + steamed greens</td><td class="pkg-highlight">Antioxidant surge</td></tr>
+              <tr><td>Friday</td><td>MCT oil + berry smoothie</td><td>Grilled trout + asparagus</td><td>Mucuna dal + brown rice</td><td class="pkg-highlight">L-DOPA natural support</td></tr>
+              <tr><td>Saturday</td><td>Chia pudding + walnuts</td><td>Omega-3 sushi bowl</td><td>Fermented black beans + veg</td><td class="pkg-highlight">PUFA + Probiotic</td></tr>
+              <tr><td>Sunday</td><td>Avocado toast + pumpkin seeds</td><td>Mediterranean fish stew</td><td>Turmeric chicken + quinoa</td><td class="pkg-highlight">UPDRS support day</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 class="pkg-section-label">🚫 Foods to Avoid</h4>
+        <div class="pkg-avoid-grid">
+          <div class="pkg-avoid-item"><strong>High n-6 seed oils</strong> Excess ARA disrupts DHA ratio</div>
+          <div class="pkg-avoid-item"><strong>Protein at medication time</strong> Competes with L-DOPA absorption</div>
+          <div class="pkg-avoid-item"><strong>Processed red meat</strong> High saturated fat → ROS brain damage</div>
+          <div class="pkg-avoid-item"><strong>Simple sugars</strong> Spikes insulin, disrupts dopamine signalling</div>
+          <div class="pkg-avoid-item"><strong>Non-fermented dairy excess</strong> Some studies link to increased PD risk</div>
+          <div class="pkg-avoid-item"><strong>Constipation-inducing foods</strong> Gut motility impacts enteric alpha-synuclein</div>
+        </div>
+
+        <h4 class="pkg-section-label">🧘 Lifestyle Adjuncts</h4>
+        <div class="pkg-lifestyle-grid">
+          <div class="pkg-lifestyle-card reveal"><span>🥊</span><h4>Tai Chi / Boxing</h4><p>Improves motor function and balance. Paired with DHA, synergistically boosts BDNF.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🎵</span><h4>Rhythmic Music Therapy</h4><p>Entrains dopaminergic pathways. Pair with dietary tryptophan/serotonin support.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>💧</span><h4>Hydration Protocol</h4><p>2–2.5 L/day. Constipation is a major PD gut trigger.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>☀️</span><h4>Morning Sunlight</h4><p>20 min daily. Vitamin D synthesis supports mitochondrial function.</p></div>
+        </div>
+      </div>
+
+      <!-- ─── PKG 3: METABOLIC SYNDROME ─── -->
+      <div class="pkg-panel" id="pkg-metabolic">
+        <div class="pkg-head">
+          <div>
+            <p class="pkg-region">🌍 South Asia · Arabian Gulf · Sub-Saharan Africa</p>
+            <h3 class="pkg-title">The Balance Protocol for Metabolic Syndrome</h3>
+            <p class="pkg-subtitle">Targeting insulin resistance, visceral adiposity, dyslipidaemia, and their neurological consequences — with a focus on folate-choline balance, omega-3s, and prebiotic fibers.</p>
+          </div>
+          <div class="pkg-badge-box"><div class="pkg-badge-emoji">⚖️</div><div class="pkg-badge-name">Balance Protocol</div></div>
+        </div>
+
+        <div class="pkg-science-box reveal">
+          <h4>The Science Behind This Package</h4>
+          <p>Maternal and adult folate-choline imbalances drive obesity, insulin resistance, and metabolic syndrome through epigenetic programming. High-choline diets block these obesogenic effects. Omega-3s, fibers, and polyphenols correct downstream metabolic dysfunction.</p>
+          <ul>
+            <li>High folic acid without choline → obesity, higher body fat, glucose dysregulation</li>
+            <li>High choline (×2.5) blocks weight gain associated with high folic acid diets</li>
+            <li>High-fiber diet in T2DM → reduces neuroinflammation via NF-κB pathway</li>
+            <li>Choline supplementation → reduces visceral adiposity, insulin, triglycerides</li>
+            <li>FOS and GOS → reduce neuroinflammation and improve cognition via PI3K/Akt</li>
+          </ul>
+        </div>
+
+        <h4 class="pkg-section-label">🍽️ Daily Meal Plan</h4>
+        <div class="pkg-meal-grid">
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌅</span><div><small>Breakfast</small><strong>Choline-Folate Reset</strong></div></div>
+            <ul>
+              <li>2 eggs + spinach omelette <em>Choline → corrects folate-choline imbalance</em></li>
+              <li>Oat porridge + cinnamon <em>Beta-glucan → insulin sensitivity + gut repair</em></li>
+              <li>Papaya or guava <em>Vitamin C + lycopene → metabolic inflammation</em></li>
+              <li>Fenugreek water <em>Trigonelline → glucose metabolism improvement</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>☀️</span><div><small>Lunch</small><strong>Metabolic Corrector</strong></div></div>
+            <ul>
+              <li>Grilled fish + bitter gourd curry <em>Momordicin → insulin mimetic effect</em></li>
+              <li>Moong dal + garlic + turmeric <em>Choline + curcumin → lipid metabolism</em></li>
+              <li>Methi roti (1) <em>Soluble fiber → post-meal glucose blunting</em></li>
+              <li>Cucumber raita <em>Probiotics → gut-metabolic axis reset</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌆</span><div><small>Dinner</small><strong>Gut Microbiome Repair</strong></div></div>
+            <ul>
+              <li>Resistant starch rice (cooled) <em>Butyrate → reduces NF-κB neuroinflammation</em></li>
+              <li>Chickpea + tomato stew <em>GOS + lycopene → gut flora + antioxidant</em></li>
+              <li>Leafy greens (kale, moringa) <em>Folate from food + iron</em></li>
+              <li>Flaxseed oil drizzle <em>ALA omega-3 → reduces TG and visceral fat</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🍵</span><div><small>Snacks</small><strong>Blood Sugar Stabilisers</strong></div></div>
+            <ul>
+              <li>Roasted chana <em>Resistant starch + protein → stable glucose</em></li>
+              <li>Apple + almond butter <em>Quercetin + healthy fat → insulin sensitivity</em></li>
+              <li>Sprout salad (moong, methi) <em>Phytoestrogens + folate from food</em></li>
+              <li>Amla juice (30 ml) <em>Emblicanin → reduces oxidative stress + HbA1c</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 class="pkg-section-label">💊 Supplement Stack</h4>
+        <div class="pkg-supp-grid">
+          <div class="pkg-supp-card reveal"><strong>Choline Bitartrate</strong><span>550 mg/day</span><p>Corrects high-folate/low-choline imbalance. Reduces visceral adiposity.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Flaxseed Oil (ALA)</strong><span>1000 mg/day</span><p>With Vitamin E: improves metabolic markers, reduces TG and visceral fat.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Beta-Glucan Fiber</strong><span>3 g/day · oat-derived</span><p>Improves insulin sensitivity, reduces TC and LDL. Anti-neuroinflammation via BDNF/PSD95.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Berberine</strong><span>500 mg × 2/day</span><p>AMPK activator equivalent to metformin. Improves insulin resistance.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Methylated B-Complex</strong><span>Methylfolate 400 mcg + B12 500 mcg</span><p>Food-form folate replaces synthetic folic acid. Prevents pseudo-MTHFR deficiency.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Inositol</strong><span>2 g/day</span><p>Insulin sensitiser. Improves PCOS-related metabolic syndrome.</p></div>
+        </div>
+
+        <h4 class="pkg-section-label">📅 7-Day Rotation Plan</h4>
+        <div class="pkg-table-wrap">
+          <table class="pkg-weekly-table">
+            <thead><tr><th>Day</th><th>Breakfast</th><th>Lunch</th><th>Dinner</th><th>Key Focus</th></tr></thead>
+            <tbody>
+              <tr><td>Monday</td><td>Egg + spinach + oats + fenugreek water</td><td>Moong dal + bitter gourd</td><td>Resistant starch rice + chickpea stew</td><td class="pkg-highlight">Choline reset</td></tr>
+              <tr><td>Tuesday</td><td>Methi seeds smoothie + papaya</td><td>Grilled fish + salad</td><td>Moringa soup + roti</td><td class="pkg-highlight">Insulin sensitivity</td></tr>
+              <tr><td>Wednesday</td><td>Besan chilla + yoghurt</td><td>Rajma (kidney beans) curry</td><td>Stir-fried kale + brown rice</td><td class="pkg-highlight">Fiber + gut repair</td></tr>
+              <tr><td>Thursday</td><td>Chia seeds + almond milk + berries</td><td>Chickpea salad + olive oil</td><td>Dal + flaxseed oil + greens</td><td class="pkg-highlight">ALA omega-3 day</td></tr>
+              <tr><td>Friday</td><td>Boiled eggs + whole grain toast + amla</td><td>Palak (spinach) paneer light</td><td>Lentil + tomato + resistant starch</td><td class="pkg-highlight">Antioxidant surge</td></tr>
+              <tr><td>Saturday</td><td>Sprout salad + yoghurt + guava</td><td>Baked fish + vegetable stew</td><td>Mixed bean curry + millet</td><td class="pkg-highlight">Probiotic + prebiotic</td></tr>
+              <tr><td>Sunday</td><td>Oat upma + nuts + green tea</td><td>Grilled chicken + cucumber raita</td><td>Moong soup + cooked cooled rice</td><td class="pkg-highlight">Metabolic rest</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 class="pkg-section-label">🚫 Foods to Avoid</h4>
+        <div class="pkg-avoid-grid">
+          <div class="pkg-avoid-item"><strong>Synthetic folic acid supplements</strong> Creates MTHFR deficiency; drives obesity without choline</div>
+          <div class="pkg-avoid-item"><strong>Maida (refined flour)</strong> Rapid glucose spike</div>
+          <div class="pkg-avoid-item"><strong>Packaged fruit juices</strong> High fructose → visceral fat</div>
+          <div class="pkg-avoid-item"><strong>Vanaspati / trans fats</strong> Worsens dyslipidaemia</div>
+          <div class="pkg-avoid-item"><strong>White rice (large portions)</strong> Replace with resistant starch version</div>
+          <div class="pkg-avoid-item"><strong>Excess red meat</strong> Increased ROS brain damage</div>
+        </div>
+
+        <h4 class="pkg-section-label">🧘 Lifestyle Adjuncts</h4>
+        <div class="pkg-lifestyle-grid">
+          <div class="pkg-lifestyle-card reveal"><span>🏊</span><h4>Aqua Exercise</h4><p>30 min 5×/week. Activates AMPK pathway synergistic with berberine.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>⏰</span><h4>Intermittent Fasting</h4><p>16:8 window. Enhances SIRT3 — synergises with caloric restriction pathways.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>📊</span><h4>Glucose Monitoring</h4><p>Track post-meal glucose. Identify personal high-glycaemic triggers.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🌿</span><h4>Stress Management</h4><p>Chronic cortisol drives visceral fat. Ashwagandha + pranayama regulate HPA axis.</p></div>
+        </div>
+      </div>
+
+      <!-- ─── PKG 4: DEPRESSION & ANXIETY ─── -->
+      <div class="pkg-panel" id="pkg-depression">
+        <div class="pkg-head">
+          <div>
+            <p class="pkg-region">🌍 North America · Northern Europe · East Asia</p>
+            <h3 class="pkg-title">The Serenity Protocol for Depression &amp; Anxiety</h3>
+            <p class="pkg-subtitle">A tryptophan-rich, serotonin-optimising nootropic diet targeting kynurenine pathway regulation, HPA axis normalisation, and gut microbiome restoration.</p>
+          </div>
+          <div class="pkg-badge-box"><div class="pkg-badge-emoji">🌊</div><div class="pkg-badge-name">Serenity Protocol</div></div>
+        </div>
+
+        <div class="pkg-science-box reveal">
+          <h4>The Science Behind This Package</h4>
+          <p>Depression involves HPA axis hyperactivation, kynurenine pathway dysregulation, and gut dysbiosis. Dietary intervention directly corrects each pathway.</p>
+          <ul>
+            <li>Tryptophan-enriched drinks improve mood, emotional stability, and sustained attention</li>
+            <li>Reduced tryptophan → excess kynurenine → NMDAR over-activation → excitotoxicity</li>
+            <li>L-arginine counters cognitive impairment in hypertension</li>
+            <li>SCFAs from fiber increase serotonin production via gut-brain axis</li>
+            <li>Resveratrol and flavonoids: 26-week study shows enhanced memory</li>
+          </ul>
+        </div>
+
+        <h4 class="pkg-section-label">🍽️ Daily Meal Plan</h4>
+        <div class="pkg-meal-grid">
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌅</span><div><small>Breakfast</small><strong>Serotonin Sunrise</strong></div></div>
+            <ul>
+              <li>Banana + turkey + milk smoothie <em>Tryptophan → serotonin precursor</em></li>
+              <li>Pumpkin seed granola <em>Tryptophan + zinc → serotonin synthesis</em></li>
+              <li>Kiwi fruit (2) <em>Serotonin content + Vitamin C → BDNF</em></li>
+              <li>Chamomile or saffron tea <em>Apigenin → GABA-A receptor modulation</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>☀️</span><div><small>Lunch</small><strong>HPA Axis Reset</strong></div></div>
+            <ul>
+              <li>Salmon + dill on rye <em>DHA + EPA → depression reduction</em></li>
+              <li>Miso + wakame seaweed soup <em>Iodine + probiotics → thyroid + gut</em></li>
+              <li>Edamame salad with sesame <em>Isoflavones → cognitive function</em></li>
+              <li>Fermented pickles (brine-cured) <em>SCFAs → serotonin + dopamine</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌆</span><div><small>Dinner</small><strong>GABA Wind-Down</strong></div></div>
+            <ul>
+              <li>Turkey breast + sweet potato <em>Tryptophan + carb → brain uptake boost</em></li>
+              <li>Kimchi or tempeh <em>Lactobacillus → GABA production</em></li>
+              <li>Broccoli + shiitake mushrooms <em>Hericenones → NGF stimulation</em></li>
+              <li>Ashwagandha turmeric milk <em>Withanolides → cortisol reduction</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🍵</span><div><small>Snacks</small><strong>Mood Stabilisers</strong></div></div>
+            <ul>
+              <li>Saffron infusion (30 mg) <em>Safranal → serotonin reuptake inhibition</em></li>
+              <li>Dark chocolate 85 %+ (30 g) <em>Flavanols → BDNF + endorphins</em></li>
+              <li>Probiotic yoghurt + honey <em>Gut bacteria → serotonin pathway</em></li>
+              <li>L-theanine green tea <em>Theanine → alpha waves, anxiety ↓</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 class="pkg-section-label">💊 Supplement Stack</h4>
+        <div class="pkg-supp-grid">
+          <div class="pkg-supp-card reveal"><strong>Tryptophan Hydrolysate</strong><span>Daily enriched drink</span><p>Improves mood, emotional stability, sustained attention, and sleep quality.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Omega-3 (DHA + EPA)</strong><span>1000–2000 mg/day</span><p>Reduces depressive symptoms. DHA supports BDNF synthesis.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Saffron Extract</strong><span>30 mg/day</span><p>Comparable to fluoxetine in mild-moderate depression in multiple RCTs.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Ashwagandha KSM-66</strong><span>600 mg/day</span><p>Reduces cortisol 27 % vs placebo. Key HPA axis regulator.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Lion's Mane Mushroom</strong><span>1 g/day</span><p>Hericene A activates TrkB receptor. Promotes hippocampal neurogenesis.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Magnesium Glycinate</strong><span>400 mg/day</span><p>NMDA receptor regulator. Glycine component additionally neuroprotective.</p></div>
+        </div>
+
+        <h4 class="pkg-section-label">📅 7-Day Rotation Plan</h4>
+        <div class="pkg-table-wrap">
+          <table class="pkg-weekly-table">
+            <thead><tr><th>Day</th><th>Breakfast</th><th>Lunch</th><th>Dinner</th><th>Key Focus</th></tr></thead>
+            <tbody>
+              <tr><td>Monday</td><td>Tryptophan banana smoothie</td><td>Salmon + miso soup</td><td>Turkey + sweet potato + kimchi</td><td class="pkg-highlight">Serotonin synthesis</td></tr>
+              <tr><td>Tuesday</td><td>Kiwi + pumpkin granola + chamomile</td><td>Edamame + tuna salad</td><td>Shiitake + tempeh stir-fry</td><td class="pkg-highlight">Gut-serotonin axis</td></tr>
+              <tr><td>Wednesday</td><td>Saffron oats + walnuts</td><td>Nordic smoked salmon + rye</td><td>Chicken + broccoli + ashwagandha milk</td><td class="pkg-highlight">Cortisol reduction</td></tr>
+              <tr><td>Thursday</td><td>Probiotic smoothie + seeds</td><td>Seaweed salad + miso tofu</td><td>Omega-3 fish curry + brown rice</td><td class="pkg-highlight">BDNF boosting</td></tr>
+              <tr><td>Friday</td><td>Dark chocolate oat bowl</td><td>Fermented kimchi + rice bowl</td><td>Turkey meatballs + zucchini noodles</td><td class="pkg-highlight">Mood stabilisation</td></tr>
+              <tr><td>Saturday</td><td>Matcha + avocado toast</td><td>Lion's mane mushroom soup</td><td>Grilled fish + fermented vegetables</td><td class="pkg-highlight">Neurogenesis day</td></tr>
+              <tr><td>Sunday</td><td>Banana + almond butter + L-theanine tea</td><td>Chickpea + spinach stew</td><td>Warm lentil soup + turmeric milk</td><td class="pkg-highlight">Recovery + restoration</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 class="pkg-section-label">🚫 Foods to Avoid</h4>
+        <div class="pkg-avoid-grid">
+          <div class="pkg-avoid-item"><strong>Alcohol</strong> Disrupts serotonin, GABA, and sleep architecture</div>
+          <div class="pkg-avoid-item"><strong>Caffeine excess</strong> Heightens HPA axis response; worsens anxiety</div>
+          <div class="pkg-avoid-item"><strong>Artificial sweeteners</strong> Linked to cognitive decline and mood disruption</div>
+          <div class="pkg-avoid-item"><strong>High-sugar processed foods</strong> Glucose spikes → inflammatory cytokines</div>
+          <div class="pkg-avoid-item"><strong>Low-fiber diets</strong> Fiber deficiency causes cognitive deficits</div>
+          <div class="pkg-avoid-item"><strong>MSG</strong> Elevates synaptic glutamate → excitotoxicity</div>
+        </div>
+
+        <h4 class="pkg-section-label">🧘 Lifestyle Adjuncts</h4>
+        <div class="pkg-lifestyle-grid">
+          <div class="pkg-lifestyle-card reveal"><span>🌲</span><h4>Forest Bathing</h4><p>Japanese Shinrin-yoku. Terpene exposure shows anti-anxiety and antidepressant properties.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>📝</span><h4>Gratitude Journalling</h4><p>Activates CREB signalling — same pathway enhanced by tryptophan and DHA.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🎯</span><h4>Cold Water Therapy</h4><p>Brief cold exposure increases norepinephrine 300 % and serotonin.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🤝</span><h4>Social Connection</h4><p>Oxytocin from social bonding amplifies serotonin's mood effects.</p></div>
+        </div>
+      </div>
+
+      <!-- ─── PKG 5: MATERNAL BRAIN HEALTH ─── -->
+      <div class="pkg-panel" id="pkg-maternal">
+        <div class="pkg-head">
+          <div>
+            <p class="pkg-region">🌍 South Asia · West Africa · Latin America</p>
+            <h3 class="pkg-title">The Genesis Protocol for Maternal Brain Health</h3>
+            <p class="pkg-subtitle">Optimising maternal folate-choline balance, DHA transfer, and one-carbon metabolism to protect maternal cognitive health and program offspring brain development.</p>
+          </div>
+          <div class="pkg-badge-box"><div class="pkg-badge-emoji">🌱</div><div class="pkg-badge-name">Genesis Protocol</div></div>
+        </div>
+
+        <div class="pkg-science-box reveal">
+          <h4>The Science Behind This Package</h4>
+          <p>Maternal nutrition programs offspring metabolic and cognitive health through epigenetic mechanisms. The folate-choline balance is critical: high folic acid without adequate choline drives obesogenic phenotypes in offspring.</p>
+          <ul>
+            <li>High choline blocks obesity caused by high folic acid gestational diet</li>
+            <li>Maternal choline in high-fat diet: reduces offspring visceral adiposity</li>
+            <li>Excess n-6:n-3 PUFA ratio disrupts fetal neurodevelopment</li>
+            <li>Maternal gut microbiota seeds infant gut — fiber programs infant SCFA production</li>
+            <li>Food-form folate avoids pseudo-MTHFR deficiency from overconsumption</li>
+          </ul>
+        </div>
+
+        <h4 class="pkg-section-label">🍽️ Daily Meal Plan</h4>
+        <div class="pkg-meal-grid">
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌅</span><div><small>Breakfast</small><strong>Choline Foundation</strong></div></div>
+            <ul>
+              <li>2–3 whole eggs daily <em>Choline → fetal brain + maternal one-carbon</em></li>
+              <li>Spinach + tomato side <em>Food-form folate → safer than synthetic</em></li>
+              <li>Greek yoghurt + berries <em>Probiotics → seed healthy infant gut</em></li>
+              <li>Moringa powder in water <em>Iron + folate + calcium</em></li>
+              <li>Ground flaxseed <em>ALA → maternal DHA status</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>☀️</span><div><small>Lunch</small><strong>Brain-Building Plate</strong></div></div>
+            <ul>
+              <li>Oily fish 3×/week <em>DHA → fetal neural membrane</em></li>
+              <li>Legumes (dal, black beans) daily <em>Food folate + GOS prebiotics</em></li>
+              <li>Sweet potato + ginger + turmeric <em>Beta-carotene + anti-inflammatory</em></li>
+              <li>Sesame seed garnish <em>Calcium + zinc → fetal development</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌆</span><div><small>Dinner</small><strong>Epigenetic Programmer</strong></div></div>
+            <ul>
+              <li>Liver (once weekly, small) <em>Highest choline food</em></li>
+              <li>Quinoa + lentil khichdi <em>Complete protein + resistant starch</em></li>
+              <li>Kale + broccoli + olive oil <em>Sulforaphane + food folate</em></li>
+              <li>Warm ginger milk <em>Gingerols → nausea + anti-inflammatory</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🍵</span><div><small>Snacks</small><strong>Maternal Nourishment</strong></div></div>
+            <ul>
+              <li>Pumpkin &amp; sunflower seeds <em>Zinc + selenium → fetal development</em></li>
+              <li>Banana + almond butter <em>B6 + potassium + BDNF</em></li>
+              <li>Amla + dates (2-3) <em>Iron absorption + energy</em></li>
+              <li>Coconut water <em>Electrolytes + hydration</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 class="pkg-section-label">💊 Supplement Stack</h4>
+        <div class="pkg-supp-grid">
+          <div class="pkg-supp-card reveal"><strong>Choline (Prenatal)</strong><span>450 mg (pregnancy) · 550 mg (lactation)</span><p>Most prenatals contain zero choline. Critical for fetal hippocampal development.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Algal DHA</strong><span>200–300 mg/day</span><p>Fetal brain needs DHA for neural membranes. Algal avoids mercury risk.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Methylfolate (NOT folic acid)</strong><span>400–600 mcg/day as 5-MTHF</span><p>Avoids pseudo-MTHFR deficiency from excess synthetic folic acid.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Methylated B12</strong><span>500 mcg/day</span><p>Low maternal B12 + high folate = highest insulin resistance in offspring.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Prebiotic Inulin</strong><span>5 g/day</span><p>Maternal gut seeds infant gut. Programs infant SCFA production capacity.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Iron (Food-form)</strong><span>27 mg/day</span><p>Reduces offspring metabolic syndrome. Critical for maternal brain oxygenation.</p></div>
+        </div>
+
+        <h4 class="pkg-section-label">🤰 Trimester Guide</h4>
+        <div class="pkg-table-wrap">
+          <table class="pkg-weekly-table">
+            <thead><tr><th>Trimester</th><th>Primary Focus</th><th>Key Foods</th><th>Critical Nootropic</th><th>Watch Out For</th></tr></thead>
+            <tbody>
+              <tr><td>T1 (Wks 1–12)</td><td>Neural tube + gut seeding</td><td>Eggs, legumes, leafy greens, ginger</td><td class="pkg-highlight">Methylfolate + Choline</td><td>Avoid synthetic folic acid excess</td></tr>
+              <tr><td>T2 (Wks 13–26)</td><td>Brain PUFA composition</td><td>Oily fish, flaxseed, walnuts, avocado</td><td class="pkg-highlight">DHA + Choline</td><td>Avoid excess n-6 seed oils</td></tr>
+              <tr><td>T3 (Wks 27–40)</td><td>Hippocampal + gut microbiome</td><td>Fermented foods, prebiotic fiber, liver</td><td class="pkg-highlight">Choline + Probiotics</td><td>Avoid ultra-processed foods</td></tr>
+              <tr><td>Lactation</td><td>DHA transfer + microbiome</td><td>Sardines, pumpkin seeds, kefir</td><td class="pkg-highlight">DHA + Inulin</td><td>Avoid alcohol completely</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 class="pkg-section-label">🚫 Foods to Avoid in Pregnancy</h4>
+        <div class="pkg-avoid-grid">
+          <div class="pkg-avoid-item"><strong>Excess synthetic folic acid</strong> Adverse metabolic programming without choline</div>
+          <div class="pkg-avoid-item"><strong>High-mercury fish</strong> Shark, swordfish — disrupts fetal neural development</div>
+          <div class="pkg-avoid-item"><strong>Alcohol</strong> Zero safe limit. Disrupts DNA methylation permanently</div>
+          <div class="pkg-avoid-item"><strong>Raw sprouts / unpasteurised</strong> Listeria risk in pregnancy</div>
+          <div class="pkg-avoid-item"><strong>Excess Vitamin A (retinol)</strong> Teratogenic at high doses</div>
+          <div class="pkg-avoid-item"><strong>High n-6 seed oils</strong> Disrupts fetal brain PUFA composition</div>
+        </div>
+
+        <h4 class="pkg-section-label">🧘 Lifestyle Adjuncts</h4>
+        <div class="pkg-lifestyle-grid">
+          <div class="pkg-lifestyle-card reveal"><span>🧘</span><h4>Prenatal Yoga</h4><p>Reduces maternal cortisol — protects fetal hypothalamic-pituitary axis programming.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>💤</span><h4>Sleep Quality</h4><p>7–9 hours + left-side sleeping (T3). Glymphatic brain clearance peaks at night.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🚶</span><h4>Gentle Walking</h4><p>30 min daily improves insulin sensitivity and gut motility.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🎵</span><h4>Music Stimulation</h4><p>Fetal auditory development begins at 18 weeks. Supports early BDNF pathways.</p></div>
+        </div>
+      </div>
+
+      <!-- ─── PKG 6: COGNITIVE AGING ─── -->
+      <div class="pkg-panel" id="pkg-aging">
+        <div class="pkg-head">
+          <div>
+            <p class="pkg-region">🌍 Japan · Mediterranean · Northern Europe</p>
+            <h3 class="pkg-title">The Longevity Protocol for Healthy Cognitive Aging</h3>
+            <p class="pkg-subtitle">A MIND-Mediterranean hybrid for adults 55+ targeting neurogenesis preservation, hippocampal volume maintenance, and cognitive decline prevention — drawing on Okinawan, Greek, and Dutch traditions.</p>
+          </div>
+          <div class="pkg-badge-box"><div class="pkg-badge-emoji">🌿</div><div class="pkg-badge-name">Longevity Protocol</div></div>
+        </div>
+
+        <div class="pkg-science-box reveal">
+          <h4>The Science Behind This Package</h4>
+          <p>Higher MIND/Mediterranean diet scores in adults 63-76 are associated with larger grey matter, hippocampus, thicker cortex, and improved memory — independent of age and APOE4 genetic risk.</p>
+          <ul>
+            <li>MIND diet → significantly lower Aβ, phosphorylated tau181, and APOE4 pathology</li>
+            <li>Higher MedDiet → larger grey matter/hippocampus volume, thicker cortex</li>
+            <li>B12 + Vitamin D + n-3 PUFAs combined → decreases Aβ load synergistically</li>
+            <li>Elevated beta-carotene/folate → increased brain glucose metabolism</li>
+            <li>Resveratrol (200 mg/26 weeks) → enhanced memory + hippocampal connectivity</li>
+          </ul>
+        </div>
+
+        <h4 class="pkg-section-label">🍽️ Daily Meal Plan</h4>
+        <div class="pkg-meal-grid">
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌅</span><div><small>Breakfast</small><strong>Okinawan Longevity Bowl</strong></div></div>
+            <ul>
+              <li>Miso soup + tofu + wakame <em>Isoflavones + probiotics → cognitive protection</em></li>
+              <li>Purple/orange sweet potato <em>Anthocyanins + beta-carotene → brain antioxidant</em></li>
+              <li>Natto (fermented soybean) <em>Nattokinase + K2 → cerebral blood flow</em></li>
+              <li>Green tea (2 cups) <em>EGCG + L-theanine → memory + calm</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>☀️</span><div><small>Lunch</small><strong>MIND Diet Masterclass</strong></div></div>
+            <ul>
+              <li>Oily fish + olive oil salad <em>DHA + oleocanthal → anti-neuroinflammation</em></li>
+              <li>Dark leafy greens (kale, spinach) <em>MIND diet's #1 food: lutein</em></li>
+              <li>Whole grain bread + legume spread <em>Fiber → gut-brain SCFA production</em></li>
+              <li>Berries daily <em>MIND diet core: delay cognitive aging by 2.5 years</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🌆</span><div><small>Dinner</small><strong>Neurogenesis Support</strong></div></div>
+            <ul>
+              <li>Lion's mane + garlic sauté <em>Hericenones → hippocampal neurogenesis</em></li>
+              <li>Lentil + vegetable soup <em>GOS fiber + plant protein → gut-brain</em></li>
+              <li>Walnuts (7-8) as garnish <em>ALA + polyphenols → brain structure</em></li>
+              <li>Turmeric + black pepper broth <em>Curcumin → SIRT1 activation</em></li>
+            </ul>
+          </div>
+          <div class="pkg-meal-card reveal">
+            <div class="pkg-meal-head"><span>🍵</span><div><small>Snacks</small><strong>Grey Matter Protectors</strong></div></div>
+            <ul>
+              <li>Blueberries (1 cup daily) <em>Anthocyanins → grey matter preservation</em></li>
+              <li>Almonds + dark chocolate <em>Vitamin E + flavanols → cortex thickness</em></li>
+              <li>Lutein-rich egg yolk snack <em>1-yr study: improved attention/cognition</em></li>
+              <li>Pomegranate juice (small glass) <em>Ellagitannins → urolithin A → mitophagy</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 class="pkg-section-label">💊 Supplement Stack</h4>
+        <div class="pkg-supp-grid">
+          <div class="pkg-supp-card reveal"><strong>Resveratrol</strong><span>200 mg/day · 26-week minimum</span><p>Gold-standard longevity nootropic. Enhanced memory + hippocampal connectivity.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Lutein + Zeaxanthin</strong><span>10 mg + 2 mg/day</span><p>1-year RCT: improves attention and cognition in elderly with mild dementia.</p></div>
+          <div class="pkg-supp-card reveal"><strong>DHA + D3 + B12</strong><span>900 mg + 2000 IU + 500 mcg</span><p>Triple combination decreases Aβ load. Strongest effect on brain biomarkers.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Lion's Mane</strong><span>1 g/day</span><p>Hericene A activates TrkB, promotes hippocampal neurogenesis and spatial memory.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Urolithin A</strong><span>500 mg/day</span><p>Induces mitophagy — restores mitochondrial biogenesis in aging neurons.</p></div>
+          <div class="pkg-supp-card reveal"><strong>Beta-Carotene + Folate</strong><span>Via diet + supplement</span><p>Increases brain glucose metabolism. Particularly pronounced in APOE4 carriers.</p></div>
+        </div>
+
+        <h4 class="pkg-section-label">📅 7-Day Rotation Plan</h4>
+        <div class="pkg-table-wrap">
+          <table class="pkg-weekly-table">
+            <thead><tr><th>Day</th><th>Breakfast</th><th>Lunch</th><th>Dinner</th><th>Key Focus</th></tr></thead>
+            <tbody>
+              <tr><td>Monday</td><td>Miso + natto + purple sweet potato</td><td>Salmon salad + berries + olive oil</td><td>Lion's mane soup + lentils</td><td class="pkg-highlight">BDNF + Neurogenesis</td></tr>
+              <tr><td>Tuesday</td><td>Green tea + tofu scramble + greens</td><td>Mediterranean fish + kale</td><td>Walnut + turmeric quinoa</td><td class="pkg-highlight">DHA + Lutein</td></tr>
+              <tr><td>Wednesday</td><td>Oat + blueberry + flaxseed bowl</td><td>MIND salad (greens+berries+nuts)</td><td>Lentil + vegetable soup</td><td class="pkg-highlight">MIND diet core day</td></tr>
+              <tr><td>Thursday</td><td>Egg yolk + avocado toast</td><td>Sardines + tomato + olive oil</td><td>Mushroom + garlic + whole grain</td><td class="pkg-highlight">Hippocampal volume</td></tr>
+              <tr><td>Friday</td><td>Pomegranate + almond smoothie</td><td>Tuna + legume salad</td><td>Baked salmon + asparagus</td><td class="pkg-highlight">Antioxidant peak</td></tr>
+              <tr><td>Saturday</td><td>Matcha latte + walnuts + berries</td><td>Greek mezze (hummus, fish, olives)</td><td>Resveratrol wine + Mediterranean feast</td><td class="pkg-highlight">Mediterranean day</td></tr>
+              <tr><td>Sunday</td><td>Bone broth + egg + sweet potato</td><td>Japanese longevity bowl</td><td>Caloric restriction light dinner</td><td class="pkg-highlight">Mitophagy + SIRT3</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 class="pkg-section-label">🚫 Foods to Avoid</h4>
+        <div class="pkg-avoid-grid">
+          <div class="pkg-avoid-item"><strong>Red meat (&gt;1×/week)</strong> MIND diet limits. Saturated fat ↑ ROS</div>
+          <div class="pkg-avoid-item"><strong>Full-fat dairy</strong> Replace with fermented options</div>
+          <div class="pkg-avoid-item"><strong>Fast food / fried foods</strong> Trans fats disrupt BBB integrity</div>
+          <div class="pkg-avoid-item"><strong>Pastries &amp; sweets</strong> Lowest-scoring MIND diet food group</div>
+          <div class="pkg-avoid-item"><strong>Excess alcohol</strong> &gt;1 glass/day negates resveratrol benefits</div>
+          <div class="pkg-avoid-item"><strong>High sodium</strong> Increases hypertension → cognitive decline</div>
+        </div>
+
+        <h4 class="pkg-section-label">🧘 Lifestyle Adjuncts</h4>
+        <div class="pkg-lifestyle-grid">
+          <div class="pkg-lifestyle-card reveal"><span>🏋️</span><h4>Resistance Training</h4><p>2-3×/week. Increases IGF-1 and BDNF — synergistic with lion's mane and DHA.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🎲</span><h4>Cognitive Challenges</h4><p>Chess, new language, instrument. Builds cognitive reserve amplified by polyphenols.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🤸</span><h4>Flexibility + Balance</h4><p>Yoga or tai chi daily. Synergises with omega-3 anti-inflammatory effects.</p></div>
+          <div class="pkg-lifestyle-card reveal"><span>🌙</span><h4>Sleep Optimisation</h4><p>8 hours. Glymphatic system clears Aβ during sleep. Lion's mane + magnesium support deep sleep.</p></div>
+        </div>
+      </div>
+
+      <div class="pkg-disclaimer">
+        <strong>Medical Disclaimer:</strong> These diet packages are based on peer-reviewed scientific literature and are intended as nutritional guidance only. They are not a substitute for medical diagnosis or treatment. Consult a qualified healthcare professional before making dietary changes, particularly during pregnancy or if managing a diagnosed condition.
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 8 — FAQ
+  ═══════════════════════════════════════════════ -->
+  <section class="section" id="faq">
+    <div class="container faq-container">
+      <p class="section-tag center">COMMON QUESTIONS</p>
+      <h2 class="center">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item"><button class="faq-q" aria-expanded="false">Is the gut really a "second brain"?<span class="faq-arrow">▾</span></button><div class="faq-a"><p>Yes — the enteric nervous system contains 100–500 million neurons and can operate entirely independently. Neuroscientist Michael Gershon coined the term in 1999.</p></div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false">Can improving gut health help mental health?<span class="faq-arrow">▾</span></button><div class="faq-a"><p>Emerging evidence, including human RCTs, says yes. The SMILES trial showed a Mediterranean diet significantly reduced depression symptoms vs. social support therapy.</p></div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false">How quickly can I change my microbiome?<span class="faq-arrow">▾</span></button><div class="faq-a"><p>Dietary changes alter microbiome composition within 24–48 hours. Significant diversity shifts take 2–4 weeks of consistent eating. Long-term structure shapes over months.</p></div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false">What is Munagaku and why is it good for the gut?<span class="faq-arrow">▾</span></button><div class="faq-a"><p><em>Munagaku</em> is the Telugu name for Moringa (<em>Moringa oleifera</em>). Its isothiocyanates reduce gut inflammation, prebiotic fibre feeds beneficial bacteria, and tryptophan is a serotonin precursor.</p></div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false">How does Lion's Mane benefit the gut–brain axis?<span class="faq-arrow">▾</span></button><div class="faq-a"><p>Lion's Mane contains hericenones and erinacines that stimulate NGF synthesis, repairing neurons in both the gut's ENS and the brain. Trials show improved cognition and gut motility after 4–12 weeks.</p></div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false">Can I take all the herbal powders together?<span class="faq-arrow">▾</span></button><div class="faq-a"><p>Yes — they complement each other. Moringa in the morning, Lion's Mane mid-morning, Ashwagandha evening. Our Starter Bundle includes a full usage guide. Consult your doctor if pregnant or on medication.</p></div></div>
+        <div class="faq-item"><button class="faq-q" aria-expanded="false">Should I take probiotics alongside your herbs?<span class="faq-arrow">▾</span></button><div class="faq-a"><p>Our herbs act as prebiotics and microbiome modulators. Adding fermented foods (kefir, kimchi, yogurt) alongside them amplifies the effect. Probiotic capsules are optional.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CTA BANNER ─── -->
+  <section class="cta-banner">
+    <div class="container center">
+      <h2>Your Gut–Brain Transformation<br/>Starts with One Spoon</h2>
+      <p>Pure herbal powders. No fillers. No compromise. Backed by science, rooted in tradition.</p>
+      <div class="hero-cta">
+        <a class="btn btn-white pulse-glow" href="#shop">Shop Now →</a>
+        <a class="btn btn-outline-white" href="#products">View Products</a>
+      </div>
+      <div class="cta-trust">
+        <span>🚚 Free Shipping ₹999+</span>
+        <span>🔄 30-Day Returns</span>
+        <span>🌿 100 % Natural</span>
+        <span>🔬 Lab Tested</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CART TOAST ─── -->
+  <div class="cart-toast" id="cartToast" aria-live="polite">
+    <span class="toast-icon">🛒</span>
+    <span id="toastMsg">Added to cart!</span>
+    <button class="toast-close" id="toastClose" aria-label="Close">×</button>
+  </div>
+
+  <!-- ─── FLOATING CART FAB ─── -->
+  <div class="floating-cart" id="floatingCart">
+    <button class="cart-fab" id="cartFab" aria-label="View cart">🛒 <span class="cart-count" id="cartCount">0</span></button>
+  </div>
+
+  <!-- ─── CART DRAWER ─── -->
+  <div class="cart-drawer" id="cartDrawer" aria-modal="true" role="dialog" aria-label="Shopping cart">
+    <div class="drawer-header"><h3>Your Cart</h3><button class="drawer-close" id="drawerClose" aria-label="Close cart">×</button></div>
+    <div class="drawer-items" id="drawerItems"><p class="empty-cart">Your cart is empty.<br/><a href="#shop">Browse herbs →</a></p></div>
+    <div class="drawer-footer" id="drawerFooter" style="display:none;">
+      <div class="drawer-total">Total: <strong id="drawerTotal">₹0</strong></div>
+      <button class="btn btn-primary" style="width:100%;">Proceed to Checkout</button>
+      <p class="drawer-note">🚚 Free shipping on orders above ₹999</p>
+    </div>
+  </div>
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#hero">Gut<span>Roots</span></a>
+        <p>Pure herbal nootropics for gut–brain health. Evidence-based, traditionally rooted. Not medical advice — always consult a qualified healthcare provider.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Our Products</h4>
+        <ul>
+          <li><a href="#products">Munagaku (Moringa) Powder</a></li>
+          <li><a href="#products">Munagaku Dosa Batter</a></li>
+          <li><a href="#products">Curry Leaf Powder</a></li>
+          <li><a href="#products">Lion's Mane Mushroom</a></li>
+          <li><a href="#products">Mushroom Coffee</a></li>
+          <li><a href="#products">Mushroom 5-Blend</a></li>
+          <li><a href="#products">Ashwagandha</a></li>
+          <li><a href="#products">Turmeric Blend</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="#what-is">The Gut–Brain Axis</a></li>
+          <li><a href="#nootropics">Nootropics</a></li>
+          <li><a href="#nutrition">Nutrition Guide</a></li>
+          <li><a href="#diet-packages">Diet Plans</a></li>
+          <li><a href="#ritual">How to Use</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 GutRoots. These statements have not been evaluated by a regulatory authority. Our products are not intended to diagnose, treat, cure, or prevent any disease.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">&#8593;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
