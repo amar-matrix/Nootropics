@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   GUTROOTS — CONSOLIDATED SCRIPT
+   GUTROOTZ — CONSOLIDATED SCRIPT
    ═══════════════════════════════════════════════ */
 
 (() => {
@@ -10,7 +10,7 @@
   if (canvas) {
     const ctx = canvas.getContext('2d');
     let w, h, dots = [];
-    const COLORS = ['#3a7d5c', '#6b5b8a', '#5a9ba8', '#c4863a'];
+    const COLORS = ['#1e6e46', '#b84a2e', '#3d8a96', '#c4863a'];
     const COUNT = 50;
 
     function resize() {
